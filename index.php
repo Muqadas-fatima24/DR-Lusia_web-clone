@@ -870,7 +870,7 @@
               </div>
               <div class="set-image-set">
                 <img
-                  src="/assets/a-images/form-image.jpeg"
+                  src="assets/a-images/form-image.jpeg"
                   alt="Dr Luisa holding a dental model"
                 />
               </div>

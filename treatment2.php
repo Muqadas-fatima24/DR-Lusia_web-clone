@@ -335,13 +335,13 @@
                       <div class="story-mg-flex">
                         <div class="expert-img-container-contained">
                           <img
-                            src="/assets/a-images/treatment-pic4.png"
+                            src="assets/a-images/treatment-pic4.png"
                             alt="Close-up of a smile with dental tools"
                           />
                         </div>
                         <div class="expert-img-container-contained1">
                           <img
-                            src="/assets/a-images/treatment-pic5.png"
+                            src="assets/a-images/treatment-pic5.png"
                             alt="Close-up of a smile with a dental mirror"
                           />
                         </div>

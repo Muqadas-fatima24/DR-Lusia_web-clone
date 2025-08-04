@@ -187,7 +187,7 @@
                   </div>
                 </div>
                 <div class="process-first-sectiion-button">
-                  <a href="/contact" style="text-decoration: none"
+                  <a href="consult.php" style="text-decoration: none"
                     ><button>
                       Book an appointment
                       <img
@@ -310,7 +310,7 @@
                       </p>
                     </div>
                     <div class="about-button10">
-                      <a href="/contact"
+                      <a href="consult.php"
                         ><button>
                           Get In Touch<img
                             src="data:image/svg+xml,%3csvg%20width='21'%20height='20'%20viewBox='0%200%2021%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_125)'%3e%3cpath%20d='M14.667%205.83337L6.33366%2014.1667'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M7.16699%205.83337H14.667V13.3334'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_125'%3e%3crect%20width='20'%20height='20'%20fill='white'%20transform='matrix(-1%200%200%201%2020.5%200)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
