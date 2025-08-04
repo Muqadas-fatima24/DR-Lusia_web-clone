@@ -4,7 +4,7 @@
           <div class="Footer-upper-section">
             <!-- A -->
             <div class="footer-upper-section-logo">
-              <img src="/assets/a-images/white-logo.png" alt="logooo" />
+              <img src="assets/a-images/white-logo.png" alt="logooo" />
             </div>
             <!-- B -->
             <div class="footer-upper-section-line"></div>
