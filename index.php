@@ -592,7 +592,7 @@
               >
                 <img
                   class="img-slider"
-                  src="/assets/a-images/work3.webp"
+                  src="assets/a-images/work3.webp"
                   height="50"
                   alt="3 shape logo"
                 />
@@ -620,7 +620,7 @@
               >
                 <img
                   class="img-slider"
-                  src="/assets/a-images/work8.webp"
+                  src="assets/a-images/work8.webp"
                   height="50"
                   alt="3 shape logo"
                 />
@@ -980,7 +980,7 @@
                         <p>
                           I consent to my personal data being collected and
                           stored as per the
-                          <a href="/privacypage" style="text-decoration: none">
+                          <a href="privacy.php" style="text-decoration: none">
                             <span style="color: rgb(213, 33, 160)"
                               >Privacy Policy.</span
                             >
@@ -1031,7 +1031,7 @@
                     <div class="slider-item">
                       <div class="slider-img">
                         <img
-                          src="/assets/a-images/rating.png"
+                          src="assets/a-images/rating.png"
                           alt="Review Rating Stars"
                         />
                       </div>

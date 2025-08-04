@@ -60,7 +60,7 @@
                 </div>
                 <a
                   class="profile-setup"
-                  href="/privacypage"
+                  href="privacy.php"
                   style="text-decoration: none; color: white"
                   >Privacy &amp; Cookie Policy</a
                 >

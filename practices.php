@@ -38,7 +38,7 @@
                     <div class="about-para">
                       <p style="color: white"></p>
                       <div class="about-button">
-                        <a href="/contact">
+                        <a href="consult.php">
                           <button>
                             Get In Touch
                             <img
@@ -60,7 +60,7 @@
                 >
                   <div class="about-right-img">
                     <img
-                      src="/assets/a-images/about-banner.png"
+                      src="assets/a-images/about-banner.png"
                       alt="Dr Luisa holding a dental syringe"
                     />
                   </div>
@@ -83,7 +83,7 @@
                 >
                   <div class="expert-left-contained">
                     <img
-                      src="/assets/a-images/practice-2.jpg"
+                      src="assets/a-images/practice-2.jpg"
                       alt="My Dentist Clinic Picture"
                     />
                   </div>
@@ -162,7 +162,7 @@
                 >
                   <div class="expert-left-contained">
                     <img
-                      src="/assets/a-images/practice-3.webp"
+                      src="assets/a-images/practice-3.webp"
                       alt="All Saints Dental Clinic Picture"
                     />
                   </div>
@@ -256,7 +256,7 @@
                       <div class="slider-item">
                         <div class="slider-img">
                           <img
-                            src="/assets/a-images/rating.png"
+                            src="assets/a-images/rating.png"
                             alt="Review Rating Stars"
                           />
                         </div>
@@ -285,7 +285,7 @@
                             <div class="le-test">
                               <div class="le-image-test">
                                 <img
-                                  src="/assets/a-images/img-testi2.svg"
+                                  src="assets/a-images/img-testi2.svg"
                                   alt="Tony Dr Luisa's Restorative Dentistry Patient"
                                 />
                               </div>
@@ -299,7 +299,7 @@
                       <div class="slider-item">
                         <div class="slider-img">
                           <img
-                            src="/assets/a-images/rating.png"
+                            src="assets/a-images/rating.png"
                             alt="Review Rating Stars"
                           />
                         </div>
@@ -328,7 +328,7 @@
                             <div class="le-test">
                               <div class="le-image-test">
                                 <img
-                                  src="/assets/a-images/img-testi5.jpg"
+                                  src="assets/a-images/img-testi5.jpg"
                                   alt="Tony Dr Luisa's Restorative Dentistry Patient"
                                 />
                               </div>
@@ -342,7 +342,7 @@
                       <div class="slider-item">
                         <div class="slider-img">
                           <img
-                            src="/assets/a-images/rating.png"
+                            src="assets/a-images/rating.png"
                             alt="Review Rating Stars"
                           />
                         </div>
@@ -373,7 +373,7 @@
                             <div class="le-test">
                               <div class="le-image-test">
                                 <img
-                                  src="/assets/a-images/img-testi2.svg"
+                                  src="assets/a-images/img-testi2.svg"
                                   alt="Tony Dr Luisa's Restorative Dentistry Patient"
                                 />
                               </div>
@@ -387,7 +387,7 @@
                       <div class="slider-item">
                         <div class="slider-img">
                           <img
-                            src="/assets/a-images/rating.png"
+                            src="assets/a-images/rating.png"
                             alt="Review Rating Stars"
                           />
                         </div>
@@ -416,7 +416,7 @@
                             <div class="le-test">
                               <div class="le-image-test">
                                 <img
-                                  src="/assets/a-images/img-testi2.svg"
+                                  src="assets/a-images/img-testi2.svg"
                                   alt="Tony Dr Luisa's Restorative Dentistry Patient"
                                 />
                               </div>
@@ -430,7 +430,7 @@
                       <div class="slider-item">
                         <div class="slider-img">
                           <img
-                            src="/assets/a-images/rating.png"
+                            src="assets/a-images/rating.png"
                             alt="Review Rating Stars"
                           />
                         </div>
@@ -460,7 +460,7 @@
                             <div class="le-test">
                               <div class="le-image-test">
                                 <img
-                                  src="/assets/a-images/img testi7.svg"
+                                  src="assets/a-images/img testi7.svg"
                                   alt="Tony Dr Luisa's Restorative Dentistry Patient"
                                 />
                               </div>
@@ -626,7 +626,7 @@
                 </div>
                 <div class="set-image-set">
                   <img
-                    src="/assets/a-images/form-image.jpeg"
+                    src="assets/a-images/form-image.jpeg"
                     alt="Dr Luisa holding a dental model"
                   />
                 </div>
@@ -737,7 +737,7 @@
                             I consent to my personal data being collected and
                             stored as per the
                             <a
-                              href="/privacypage"
+                              href="privacy.php"
                               style="text-decoration: none"
                             >
                               <span style="color: rgb(213, 33, 160)"

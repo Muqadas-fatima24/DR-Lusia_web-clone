@@ -39,37 +39,37 @@
             <div class="area-imgg">
               <div class="gallery-images-single">
                 <img
-                  src="/assets/a-images/extra1.jpg"
+                  src="assets/a-images/extra1.jpg"
                   alt="Before and After Teeth Whitening Treatment Teeth"
                 />
               </div>
               <div class="gallery-images-single">
                 <img
-                  src="/assets/a-images/extra2.jpg"
+                  src="assets/a-images/extra2.jpg"
                   alt="Before and After Dental Implant Treatment Teeth"
                 />
               </div>
               <div class="gallery-images-single">
                 <img
-                  src="/assets/a-images/extra3.jpg"
+                  src="assets/a-images/extra3.jpg"
                   alt="Before and After Composite Bonding Treatment Teeth"
                 />
               </div>
               <div class="gallery-images-single">
                 <img
-                  src="/assets/a-images/extra4.jpg"
+                  src="assets/a-images/extra4.jpg"
                   alt="Before and After Teeth Whitening Treatment Teeth"
                 />
               </div>
               <div class="gallery-images-single">
                 <img
-                  src="/assets/a-images/extra5.jpg"
+                  src="assets/a-images/extra5.jpg"
                   alt="Before and After Porcelain Veneers Treatment Teeth"
                 />
               </div>
               <div class="gallery-images-single">
                 <img
-                  src="/assets/a-images/extra6.jpg"
+                  src="assets/a-images/extra6.jpg"
                   alt="Before and After Teeth Whitening Treatment Teeth"
                 />
               </div>
@@ -94,7 +94,7 @@
               >
                 <div class="church-left-content church-content-control">
                   <div class="church-img">
-                    <img src="/assets/a-images/logo-test.png" alt="" />
+                    <img src="assets/a-images/logo-test.png" alt="" />
                   </div>
                   <div
                     class="church-heading-container church-heading-container-uffff-hmm"
@@ -149,7 +149,7 @@
               >
                 <div class="church-left-content">
                   <div class="church-img">
-                    <img src="/assets/a-images/logo-test.png" alt="" />
+                    <img src="assets/a-images/logo-test.png" alt="" />
                   </div>
                   <div
                     class="church-heading-container church-heading-container-uffff"
@@ -225,7 +225,7 @@
                       <div class="slider-item">
                         <div class="slider-img">
                           <img
-                            src="/assets/a-images/rating.png"
+                            src="assets/a-images/rating.png"
                             alt="Review Rating Stars"
                           />
                         </div>
@@ -254,7 +254,7 @@
                             <div class="le-test">
                               <div class="le-image-test">
                                 <img
-                                  src="/assets/a-images/img-testi2.svg"
+                                  src="assets/a-images/img-testi2.svg"
                                   alt="Tony Dr Luisa's Restorative Dentistry Patient"
                                 />
                               </div>
@@ -268,7 +268,7 @@
                       <div class="slider-item">
                         <div class="slider-img">
                           <img
-                            src="/assets/a-images/rating.png"
+                            src="assets/a-images/rating.png"
                             alt="Review Rating Stars"
                           />
                         </div>
@@ -297,7 +297,7 @@
                             <div class="le-test">
                               <div class="le-image-test">
                                 <img
-                                  src="/assets/a-images/img-testi5.jpg"
+                                  src="assets/a-images/img-testi5.jpg"
                                   alt="Tony Dr Luisa's Restorative Dentistry Patient"
                                 />
                               </div>
@@ -311,7 +311,7 @@
                       <div class="slider-item">
                         <div class="slider-img">
                           <img
-                            src="/assets/a-images/rating.png"
+                            src="assets/a-images/rating.png"
                             alt="Review Rating Stars"
                           />
                         </div>
@@ -342,7 +342,7 @@
                             <div class="le-test">
                               <div class="le-image-test">
                                 <img
-                                  src="/assets/a-images/img-testi2.svg"
+                                  src="assets/a-images/img-testi2.svg"
                                   alt="Tony Dr Luisa's Restorative Dentistry Patient"
                                 />
                               </div>
@@ -356,7 +356,7 @@
                       <div class="slider-item">
                         <div class="slider-img">
                           <img
-                            src="/assets/a-images/rating.png"
+                            src="assets/a-images/rating.png"
                             alt="Review Rating Stars"
                           />
                         </div>
@@ -385,7 +385,7 @@
                             <div class="le-test">
                               <div class="le-image-test">
                                 <img
-                                  src="/assets/a-images/img-testi2.svg"
+                                  src="assets/a-images/img-testi2.svg"
                                   alt="Tony Dr Luisa's Restorative Dentistry Patient"
                                 />
                               </div>
@@ -399,7 +399,7 @@
                       <div class="slider-item">
                         <div class="slider-img">
                           <img
-                            src="/assets/a-images/rating.png"
+                            src="assets/a-images/rating.png"
                             alt="Review Rating Stars"
                           />
                         </div>
@@ -429,7 +429,7 @@
                             <div class="le-test">
                               <div class="le-image-test">
                                 <img
-                                  src="/assets/a-images/img testi7.svg"
+                                  src="assets/a-images/img testi7.svg"
                                   alt="Tony Dr Luisa's Restorative Dentistry Patient"
                                 />
                               </div>
@@ -467,272 +467,6 @@
           </div>
         </div>
         <!-- 4  contact for testimonial-page-->
-          <!-- 1--MODAL -->
-      <!-- <div
-        class="modal fade"
-        id="staticBackdrop"
-        data-bs-backdrop="static"
-        data-bs-keyboard="false"
-        tabindex="-1"
-        aria-labelledby="staticBackdropLabel"
-        aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h1 class="modal-title fs-5" id="staticBackdropLabel">
-                Validation Error
-              </h1>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <div
-                id="error-name-required"
-                class="validation-error"
-                style="display: none"
-              >
-                Name is required
-              </div>
-              <div
-                id="error-email-required"
-                class="validation-error"
-                style="display: none"
-              >
-                Email address is required
-              </div>
-              <div
-                id="error-email-invalid"
-                class="validation-error"
-                style="display: none"
-              >
-                Please enter a valid email address
-              </div>
-              <div
-                id="error-phone-required"
-                class="validation-error"
-                style="display: none"
-              >
-                Phone number is required
-              </div>
-              <div
-                id="error-phone-invalid"
-                class="validation-error"
-                style="display: none"
-              >
-                Please enter a valid phone number
-              </div>
-              <div
-                id="error-practice-required"
-                class="validation-error"
-                style="display: none"
-              >
-                Practice selection is required
-              </div>
-              <div
-                id="error-message-required"
-                class="validation-error"
-                style="display: none"
-              >
-                Message is required
-              </div>
-              <div
-                id="error-message-minlength"
-                class="validation-error"
-                style="display: none"
-              >
-                Message must be at least 10 characters long.
-              </div>
-              <div
-                id="error-consent-required"
-                class="validation-error"
-                style="display: none"
-              >
-                You must consent to the privacy policy
-              </div>
-              <div
-                id="success-message"
-                class="validation-success"
-                style="display: none"
-              >
-                Form submitted successfully!
-              </div>
-            </div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>  -->
-         <!--  -->
-         <!-- <div>
-          <div class="Contact">
-            <div class="Contact-main10 testi-contact-main">
-              <div class="Contact-main-inside inside-bext-container">
-                <div class="Contact-right-section left-testiii aos-init aos-animate"
-                  data-aos="fade-right"
-                  data-aos-offset="200"
-                  data-aos-duration="600"
-                >
-                  <form>
-                    <div class="form-container">
-                      <div class="form-flex-heading flex-flex-head">
-                        <h2>Get in Touch</h2>
-                      </div>
-                      <div class="form-paraa-flex">
-                        <p>
-                          Simply complete the form and one of our team will get
-                          in touch to help you get the smile you deserve.
-                        </p>
-                      </div>
-                      <div class="flex-item">
-                        <div class="contact-right-label lable-setting">
-                          <label for="name">Name</label>
-                        </div>
-                        <div
-                          class="contact-right-input goooood contact-right-input-done done-flex set-indirect"
-                        >
-                          <input
-                            type="text"
-                            id="name"
-                            name="user_name"
-                            placeholder="Your Name"
-                            class="input-image-set22"
-                            value=""
-                          />
-                        </div>
-                      </div>
-                      <div class="flex-item-gallery-contained">
-                        <div class="flex-item">
-                          <div
-                            class="contact-right-label lable-setting email-labelll lll-label set-flev"
-                          >
-                            <label for="name">Phone No.</label>
-                          </div>
-                          <div
-                            class="contact-right-input bbbtttt goooood content-flex done-flex"
-                          >
-                            <input
-                              type="text"
-                              id="name"
-                              name="phone"
-                              placeholder="Phone"
-                              class="input-image-set23"
-                              value=""
-                            />
-                          </div>
-                        </div>
-                        <div class="flex-item">
-                          <div
-                            class="contact-right-label lable-setting email-labelll label-set-max"
-                          >
-                            <label for="email">Email Address</label>
-                          </div>
-                          <div
-                            class="contact-right-input bbbtttt goooood content-flex done-flex"
-                          >
-                            <input
-                              type="text"
-                              id="name"
-                              name="email"
-                              placeholder="Enter your email address"
-                              class="input-image-set24"
-                              value=""
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div class="flex-item">
-                        <div class="contact-right-label ok-labellll hmm-label">
-                          <label for="name">
-                            Which Practice would you like to be treated
-                            at</label
-                          >
-                        </div>
-                        <div class="custom-select2">
-                          <select id="practice" name="practice" class="ddd">
-                            <option value="" disabled="" hidden="">
-                              Which Practice would you like to be treated at
-                            </option>
-                            <option value="All Saints Dental">
-                              All Saints Dental
-                            </option>
-                            <option value="{my}dentist Kings Norton">
-                              {my}dentist Kings Norton
-                            </option>
-                          </select>
-                        </div>
-                      </div>
-                      <div class="flex-item">
-                        <div class="contact-right-label ok-labellll hmm-label">
-                          <label for="message"
-                            >Please enter any additional comments</label
-                          >
-                        </div>
-                        <textarea
-                          id="message"
-                          name="message"
-                          placeholder="Please enter any additional comments"
-                        ></textarea>
-                      </div>
-                    </div>
-                    <div class="form-container">
-                      <div class="para-form2">
-                        <div class="para-form-input">
-                          <div class="input-checked">
-                            <input
-                              type="checkbox"
-                              id="consentCheckbox"
-                              class="custom-checkbox"
-                            />
-                          </div>
-                          <div class="para-form2-content">
-                            <p>
-                              I consent to my personal data being collected and
-                              stored as per the
-                              <a
-                                href="/privacypage"
-                                style="text-decoration: none"
-                                ><span style="color: rgb(213, 33, 160)"
-                                  >Privacy Policy.</span
-                                >
-                              </a>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="form-button-gallery">
-                        <button type="submit">Submit Form</button>
-                      </div>
-                    </div>
-                  </form>
-                </div>
-                <div class="Contact-left-side right-testiii aos-init aos-animate"
-                  data-aos="fade-left"
-                  data-aos-offset="200"
-                  data-aos-duration="600"
-                >
-                  <div class="testi-img-gallery-pic">
-                    <img
-                      src="/assets/a-images/test-form.jpg"
-                      alt="Dr Luisa holding dental tools in both hands"
-                    />
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>  -->
-        <!--  -->
 
         <!-- ----------practice--------------------------------------------------------------------- -->
 
@@ -861,7 +595,7 @@
                                     <div class="para-form2-content">
                                         <p>
                                             I consent to my personal data being collected and stored as per the
-                                            <a href="/privacypage" style="text-decoration: none"><span style="color: rgb(213, 33, 160)">Privacy Policy.</span>
+                                            <a href="privacy.php" style="text-decoration: none"><span style="color: rgb(213, 33, 160)">Privacy Policy.</span>
                                             </a>
                                         </p>
                                     </div>
@@ -875,7 +609,7 @@
                 </div>
                 <div class="Contact-left-side right-testiii aos-init aos-animate" data-aos="fade-left" data-aos-offset="200" data-aos-duration="600">
                     <div class="testi-img-gallery-pic">
-                        <img src="/assets/a-images/test-form.jpg" alt="Dr Luisa holding dental tools in both hands" class="image-fluid" />
+                        <img src="assets/a-images/test-form.jpg" alt="Dr Luisa holding dental tools in both hands" class="image-fluid" />
                     </div>
                 </div>
             </div>

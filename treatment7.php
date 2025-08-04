@@ -60,7 +60,7 @@
               >
                 <div class="about-right-img11">
                   <img
-                    src="/assets/a-images/treatment-pic1.png"
+                    src="assets/a-images/treatment-pic1.png"
                     alt="Smiling woman After Dental Treatment"
                   />
                 </div>
@@ -151,7 +151,7 @@
           <div class="teeth-container-contained">
             <div class="teeth-container">
               <img
-                src="/assets/a-images/treatment-pic2.png"
+                src="assets/a-images/treatment-pic2.png"
                 alt="Dr Luisa examining a dental model with a focused expression"
               />
             </div>
@@ -188,7 +188,7 @@
                   </div>
                 </div>
                 <div class="process-first-sectiion-button">
-                  <a href="/contact" style="text-decoration: none"
+                  <a href="contact" style="text-decoration: none"
                     ><button>
                       Book an appointment
                       <img
@@ -329,20 +329,20 @@
                 >
                   <div class="expert-left-contained-story">
                     <img
-                      src="/assets/a-images/treatment-pic3.png"
+                      src="assets/a-images/treatment-pic3.png"
                       alt="Dr Lusia in Dentist Uniform"
                     />
                     <div class="story-content-img-flex">
                       <div class="story-mg-flex">
                         <div class="expert-img-container-contained">
                           <img
-                            src="/assets/a-images/treatment-pic4.png"
+                            src="assets/a-images/treatment-pic4.png"
                             alt="Close-up of a smile with dental tools"
                           />
                         </div>
                         <div class="expert-img-container-contained1">
                           <img
-                            src="/assets/a-images/treatment-pic5.png"
+                            src="assets/a-images/treatment-pic5.png"
                             alt="Close-up of a smile with a dental mirror"
                           />
                         </div>
@@ -481,7 +481,7 @@
               </div>
               <div class="set-image-set">
                 <img
-                  src="/assets/a-images/form-image.jpeg"
+                  src="assets/a-images/form-image.jpeg"
                   alt="Dr Luisa holding a dental model"
                 />
               </div>

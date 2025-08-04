@@ -36,7 +36,7 @@
                   <div class="about-para">
                     <p style="color: white"></p>
                     <div class="about-button">
-                      <a href="/contact">
+                      <a href="consult.php">
                         <button>
                           Get In Touch
                           <img
@@ -58,7 +58,7 @@
               >
                 <div class="about-right-img">
                   <img
-                    src="/assets/a-images/about-banner.png"
+                    src="assets/a-images/about-banner.png"
                     alt="Dr Luisa holding a dental syringe"
                   />
                 </div>
@@ -80,7 +80,7 @@
               >
                 <div class="expert-left-contained">
                   <img
-                    src="/assets/a-images/about-2.png"
+                    src="assets/a-images/about-2.png"
                     alt="Dr Luisa holding a dental syringe Close-up"
                   />
                 </div>
@@ -196,7 +196,7 @@
               >
                 <div class="expert-left-contained">
                   <img
-                    src="/assets/a-images/about-3.png"
+                    src="assets/a-images/about-3.png"
                     alt="Dr Luisa holding a dental model with gloves and a playful expression"
                   />
                 </div>
@@ -250,7 +250,7 @@
           <div class="leader-right">
             <div class="leader-right-image">
               <img
-                src="/assets/a-images/about-5.svg" class="image-fluid"
+                src="assets/a-images/about-5.svg" class="image-fluid"
                 alt="Dental Leaders Podcast"
               />
             </div>
@@ -427,7 +427,7 @@
               </div>
               <div class="set-image-set">
                 <img
-                  src="/assets/a-images/form-image.jpeg"
+                  src="assets/a-images/form-image.jpeg"
                   alt="Dr Luisa holding a dental model"
                 />
               </div>
@@ -439,7 +439,7 @@
               </div>
               <div class="insta-img-set">
                 <a href="https://www.instagram.com/the.pink.dentist">
-                  <img src="/assets/a-images/insta.png" alt="" />
+                  <img src="assets/a-images/insta.png" alt="" />
                 </a>
               </div>
             </div>
@@ -537,7 +537,7 @@
                         <p>
                           I consent to my personal data being collected and
                           stored as per the
-                          <a href="/privacypage" style="text-decoration: none">
+                          <a href="privacy.php" style="text-decoration: none">
                             <span style="color: rgb(213, 33, 160)"
                               >Privacy Policy.</span
                             >
