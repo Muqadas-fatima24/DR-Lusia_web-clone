@@ -5,7 +5,7 @@
               <!-- 1 -->
               <a class="navbar-brand active" href="index.php">
                 <img
-                  src="/assets/a-images/real-logo.png"
+                  src="assets/a-images/real-logo.png"
                   alt="Dr Luisa Logo"
                   class="logo-img"
                   style="width: 120px; height: 120px; object-fit: contain"

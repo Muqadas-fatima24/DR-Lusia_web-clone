@@ -17,7 +17,7 @@
       <main>
       <div class="treat-container treatcontainer-merging">
         <div class="treat-img">
-          <img src="/assets/a-images/bgg-banner.svg" alt="" />
+          <img src="assets/a-images/bgg-banner.svg" alt="" />
         </div>
         <div class="trest-full-container">
           <!-- left -->
@@ -41,7 +41,7 @@
                 </p>
               </div>
               <div class="left-button d-flex">
-                <a href="/contact">
+                <a href="consult.php">
                   <button
                     style="
                       width: auto;
@@ -61,7 +61,7 @@
               data-aos-duration="800"
             >
               <img
-                src="/assets/a-images/banner-front.png"
+                src="assets/a-images/banner-front.png"
                 alt="Dr Luisa Mateescu"
               />
             </div>
@@ -115,14 +115,14 @@
       <div class="treat-container-responsive treatcontainer-merging-ok">
         <div class="image-container-responsive">
           <div class="treat-img1">
-            <img src="/assets/a-images/bgg-banner.svg" alt="" />
+            <img src="assets/a-images/bgg-banner.svg" alt="" />
           </div>
           <div
             class="left-img1 aos-init aos-animate"
             data-aos="zoom-in"
             data-aos-duration="800"
           >
-            <img src="/assets/a-images/banner-front.png" alt="" />
+            <img src="assets/a-images/banner-front.png" alt="" />
           </div>
         </div>
         <div class="responsive-content-container">
@@ -148,7 +148,9 @@
                     culpa qui officia deserunt mollit anim id est laborum.
                   </p>
                 </div>
+                <!-- <a href="consult.php"> -->
                 <div class="left-button1"><button>Get In Touch</button></div>
+                <!-- </a> -->
               </div>
             </div>
           </div>
@@ -234,7 +236,7 @@
                 </p>
               </div>
               <div class="left-button1">
-                <a href="/contact"
+                <a href="/consult.php"
                   ><button>
                     Get In Touch<img
                       src="data:image/svg+xml,%3csvg%20width='21'%20height='20'%20viewBox='0%200%2021%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_125)'%3e%3cpath%20d='M14.667%205.83337L6.33366%2014.1667'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M7.16699%205.83337H14.667V13.3334'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_125'%3e%3crect%20width='20'%20height='20'%20fill='white'%20transform='matrix(-1%200%200%201%2020.5%200)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
@@ -275,7 +277,7 @@
       <div class="dental-container">
         <div class="dental-image">
           <img
-            src="/assets/a-images/dental-contain.png"
+            src="assets/a-images/dental-contain.png"
             alt="Dr Luisa examining a patient's teeth with dental tools"
           />
         </div>
@@ -298,13 +300,13 @@
                 <div class="column1">
                   <a
                     class="Treatments-grid-item"
-                    href="/invisalign"
+                    href="tretment1.php"
                     style="text-decoration: none; color: black"
                   >
                     <div class="treatment-box-grid">
                       <div class="img-contained-treatment">
                         <img
-                          src="/assets/a-images/ring-DODHdGpO.png"
+                          src="assets/a-images/ring-DODHdGpO.png"
                           alt="Invisalign Clear Braces"
                           class="image-fluid"
                         />
@@ -326,13 +328,13 @@
                   </a>
                   <a
                     class="Treatments-grid-item"
-                    href="/bonding"
+                    href="treatment.php"
                     style="text-decoration: none; color: black"
                   >
                     <div class="treatment-box-grid1">
                       <div class="img-contained-treatment">
                         <img
-                          src="/assets/a-images/pngkey.svg"
+                          src="assets/a-images/pngkey.svg"
                           alt="Composite bonding illustration with dental arch"
                           class="image-fluid"
                         />
@@ -356,13 +358,13 @@
                 <div class="column2">
                   <a
                     class="Treatments-grid-item"
-                    href="/englightent"
+                    href="treatment3.php"
                     style="text-decoration: none; color: black"
                   >
                     <div class="treatment-box-grid2">
                       <div class="treat-grid-img-flex">
                         <img
-                          src="/assets/a-images/treatment1.png"
+                          src="assets/a-images/treatment1.png"
                           alt="Enlighten Teeth Whitening"
                           class="image-fluid"
                         />
@@ -381,13 +383,13 @@
                   </a>
                   <a
                     class="Treatments-grid-item"
-                    href="/procelain"
+                    href="treatment4.php"
                     style="text-decoration: none; color: black"
                   >
                     <div class="treatment-box-grid3">
                       <div class="treat-grid-img-flex">
                         <img
-                          src="/assets/a-images/treatment2.png"
+                          src="assets/a-images/treatment2.png"
                           alt="Close-up of a smile with veneers on teeth"
                           class="image-fluid"
                         />
@@ -452,77 +454,77 @@
                     <li>
                       <img
                         class="image-item"
-                        src="/assets/a-images/teeth1.jpg"
+                        src="assets/a-images/teeth1.jpg"
                         alt="Before and After Teeth Whitening Treatment Teeth"
                       />
                     </li>
                     <li>
                       <img
                         class="image-item"
-                        src="/assets/a-images/teeth2.jpg"
+                        src="assets/a-images/teeth2.jpg"
                         alt="Before and After Dental Implant Treatment Teeth"
                       />
                     </li>
                     <li>
                       <img
                         class="image-item"
-                        src="/assets/a-images/teeth3.jpg"
+                        src="assets/a-images/teeth3.jpg"
                         alt="Before and After Composite Bonding Treatment Teeth"
                       />
                     </li>
                     <li>
                       <img
                         class="image-item"
-                        src="/assets/a-images/teeth4.jpg"
+                        src="assets/a-images/teeth4.jpg"
                         alt="Before and After Teeth Whitening Treatment Teeth"
                       />
                     </li>
                     <li>
                       <img
                         class="image-item"
-                        src="/assets/a-images/teeth5.jpg"
+                        src="assets/a-images/teeth5.jpg"
                         alt="Before and After Porcelain Veneers Treatment Teeth"
                       />
                     </li>
                     <li>
                       <img
                         class="image-item"
-                        src="/assets/a-images/teeth6.jpg"
+                        src="assets/a-images/teeth6.jpg"
                         alt="Before and After Teeth Whitening Treatment Teeth"
                       />
                     </li>
                     <li>
                       <img
                         class="image-item"
-                        src="/assets/a-images/teeth7.jpg"
+                        src="assets/a-images/teeth7.jpg"
                         alt="Before and After Dr Luisa Patients"
                       />
                     </li>
                     <li>
                       <img
                         class="image-item"
-                        src="/assets/a-images/teeth8.jpeg"
+                        src="assets/a-images/teeth8.jpeg"
                         alt="Before and After Dr Luisa Patients"
                       />
                     </li>
                     <li>
                       <img
                         class="image-item"
-                        src="/assets/a-images/teeth9.jpeg"
+                        src="assets/a-images/teeth9.jpeg"
                         alt="Before and After Dr Luisa Patients"
                       />
                     </li>
                     <li>
                       <img
                         class="image-item"
-                        src="/assets/a-images/teeth10.jpeg"
+                        src="assets/a-images/teeth10.jpeg"
                         alt="Before and After Dr Luisa Patients"
                       />
                     </li>
                     <li>
                       <img
                         class="image-item"
-                        src="/assets/a-images/teeth11.jpeg"
+                        src="assets/a-images/teeth11.jpeg"
                         alt="Before and After Dr Luisa Patients"
                       />
                     </li>
@@ -562,7 +564,7 @@
               >
                 <img
                   class="img-slider"
-                  src="/assets/a-images/work1.webp"
+                  src="assets/a-images/work1.webp"
                   height="50"
                   alt="3 shape logo"
                 />
@@ -576,7 +578,7 @@
               >
                 <img
                   class="img-slider"
-                  src="/assets/a-images/work2.webp"
+                  src="assets/a-images/work2.webp"
                   height="50"
                   alt="3 shape logo"
                 />
@@ -604,7 +606,7 @@
               >
                 <img
                   class="img-slider"
-                  src="/assets/a-images/work7.webp"
+                  src="assets/a-images/work7.webp"
                   height="50"
                   alt="3 shape logo"
                 />
@@ -632,7 +634,7 @@
               >
                 <img
                   class="img-slider"
-                  src="/assets/a-images/work9.webp"
+                  src="assets/a-images/work9.webp"
                   height="50"
                   alt="3 shape logo"
                 />
@@ -646,7 +648,7 @@
               >
                 <img
                   class="img-slider"
-                  src="/assets/a-images/work12.webp"
+                  src="assets/a-images/work12.webp"
                   height="50"
                   alt="3 shape logo"
                 />
@@ -660,7 +662,7 @@
               >
                 <img
                   class="img-slider"
-                  src="/assets/a-images/work4.webp"
+                  src="assets/a-images/work4.webp"
                   height="50"
                   alt="3 shape logo"
                 />
@@ -674,7 +676,7 @@
               >
                 <img
                   class="img-slider"
-                  src="/assets/a-images/work5.webp"
+                  src="assets/a-images/work5.webp"
                   height="50"
                   alt="3 shape logo"
                 />
@@ -688,7 +690,7 @@
               >
                 <img
                   class="img-slider"
-                  src="/assets/a-images/work6.webp"
+                  src="assets/a-images/work6.webp"
                   height="50"
                   alt="3 shape logo"
                 />
@@ -703,7 +705,7 @@
               >
                 <img
                   class="img-slider"
-                  src="/assets/a-images/work11.webp"
+                  src="assets/a-images/work11.webp"
                   height="50"
                   alt="3 shape logo"
                 />
@@ -717,7 +719,7 @@
               >
                 <img
                   class="img-slider"
-                  src="/assets/a-images/work12.webp"
+                  src="assets/a-images/work12.webp"
                   height="50"
                   alt="3 shape logo"
                 />
@@ -731,7 +733,7 @@
               >
                 <img
                   class="img-slider"
-                  src="/assets/a-images/work13.webp"
+                  src="assets/a-images/work13.webp"
                   height="50"
                   alt="3 shape logo"
                 />
@@ -1058,7 +1060,7 @@
                           <div class="le-test">
                             <div class="le-image-test">
                               <img
-                                src="/assets/a-images/img-testi2.svg"
+                                src="assets/a-images/img-testi2.svg"
                                 alt="Tony Dr Luisa's Restorative Dentistry Patient"
                               />
                             </div>
@@ -1072,7 +1074,7 @@
                     <div class="slider-item">
                       <div class="slider-img">
                         <img
-                          src="/assets/a-images/rating.png"
+                          src="assets/a-images/rating.png"
                           alt="Review Rating Stars"
                         />
                       </div>
@@ -1101,7 +1103,7 @@
                           <div class="le-test">
                             <div class="le-image-test">
                               <img
-                                src="/assets/a-images/img-testi5.jpg"
+                                src="assets/a-images/img-testi5.jpg"
                                 alt="Tony Dr Luisa's Restorative Dentistry Patient"
                               />
                             </div>
@@ -1115,7 +1117,7 @@
                     <div class="slider-item">
                       <div class="slider-img">
                         <img
-                          src="/assets/a-images/rating.png"
+                          src="assets/a-images/rating.png"
                           alt="Review Rating Stars"
                         />
                       </div>
@@ -1145,7 +1147,7 @@
                           <div class="le-test">
                             <div class="le-image-test">
                               <img
-                                src="/assets/a-images/img-testi2.svg"
+                                src="assets/a-images/img-testi2.svg"
                                 alt="Tony Dr Luisa's Restorative Dentistry Patient"
                               />
                             </div>
@@ -1159,7 +1161,7 @@
                     <div class="slider-item">
                       <div class="slider-img">
                         <img
-                          src="/assets/a-images/rating.png"
+                          src="assets/a-images/rating.png"
                           alt="Review Rating Stars"
                         />
                       </div>
@@ -1188,7 +1190,7 @@
                           <div class="le-test">
                             <div class="le-image-test">
                               <img
-                                src="/assets/a-images/img-testi2.svg"
+                                src="assets/a-images/img-testi2.svg"
                                 alt="Tony Dr Luisa's Restorative Dentistry Patient"
                               />
                             </div>
@@ -1202,7 +1204,7 @@
                     <div class="slider-item">
                       <div class="slider-img">
                         <img
-                          src="/assets/a-images/rating.png"
+                          src="assets/a-images/rating.png"
                           alt="Review Rating Stars"
                         />
                       </div>
@@ -1231,7 +1233,7 @@
                           <div class="le-test">
                             <div class="le-image-test">
                               <img
-                                src="/assets/a-images/img testi7.svg"
+                                src="assets/a-images/img testi7.svg"
                                 alt="Tony Dr Luisa's Restorative Dentistry Patient"
                               />
                             </div>
