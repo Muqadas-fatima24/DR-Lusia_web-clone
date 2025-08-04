@@ -7,8 +7,7 @@
     <!-- link for icons  -->
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-    />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
 
     <!-- carousel files -->
     <link rel="stylesheet" href="css/owl.theme.default.min.css" />
@@ -27,7 +26,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
 
-  <body>
+  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
     <div style="width: 100%; overflow: hidden">
       <!----------------------HEADER----------------------->
 
@@ -62,7 +61,7 @@
                 <ul class="navbar-nav mb-2 mb-lg-0" style="gap: 36px">
                   <!-- about -->
                   <li class="nav-item fs-6">
-                    <a class="nav-link" href="#">About me</a>
+                    <a class="nav-link" href="about_me.html">About me</a>
                   </li>
                   <!-- treatment dropdown -->
                   <li class="nav-item dropdown fs-6">
@@ -133,11 +132,11 @@
                   </li>
                   <!-- practices -->
                   <li class="nav-item fs-6">
-                    <a class="nav-link" href="#">Practices </a>
+                    <a class="nav-link" href="practices.html">Practices </a>
                   </li>
                   <!-- Testimonials -->
                   <li class="nav-item fs-6">
-                    <a class="nav-link" href="/testimonials">Testimonials</a>
+                    <a class="nav-link" href="testimonials.html">Testimonials</a>
                   </li>
                 </ul>
                 <!-- 2 -->
@@ -174,7 +173,7 @@
       <!---------------------MAIN-------------------------->
 
       <!--------------------- MAIN-1----------------------->
-
+      <main>
       <div class="treat-container treatcontainer-merging">
         <div class="treat-img">
           <img src="/assets/a-images/bgg-banner.svg" alt="" />
@@ -440,22 +439,9 @@
           />
         </div>
       </div>
+
       <!--------------------- MAIN-5------------------------->
-      <!--------------------- MAIN-6------------------------->
-      <div class="insta-button">
-        <a
-          href="https://www.instagram.com/the.pink.dentist/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="data:image/png;base64,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"
-            alt="Instagram"
-            class="insta-icon"
-        /></a>
-      </div>
-      <!--------------------- MAIN-7------------------------->
-<div class="main-container">
+      <div class="main-container">
         <div class="sub-main">
           <div class="content-container">
             <div class="top-part">
@@ -589,379 +575,861 @@
             </div>
           </div>
         </div>
-</div>
-<!-- ----------------MAIN8--------------------------->
-
-
-<div class="contact">
-    <div class="contact-main">
-        <div class="contact-main-inside">
-            <!-- LEFT -->
-            <div class="contact-left-side">
-                <div class="lusia-content lusia-flus">
-                    <div class="lusia-img">
-                       <img src="data:image/svg+xml,%3csvg%20width='30'%20height='2'%20viewBox='0%200%2030%202'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cline%20y1='1'%20x2='30'%20y2='1'%20stroke='%23D521A0'%20stroke-width='2'/%3e%3c/svg%3e" alt="">
-                    </div>
-                    <div class="lusia-heading">
-                       <h2 class="lusia-heading-control control-set-flex">Get In Touch</h2>
-                    </div>
-                </div>
-                <div class="set-image-set">
-                    <img src="/assets/a-images/form-image.jpeg" alt="Dr Luisa holding a dental model">
-                </div>
-                <div class="question-lusia">
-                   <p>Simply complete the form and one of our team will get in touch to help you get the smile you deserve.</p>
-                </div>
-                <div class="insta-img-set">
-                    <a href="https://www.instagram.com/the.pink.dentist">
-                        <img src="data:image/png;base64,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" alt=""></a>
-                </div>
+      </div>
+      <!-------------MAIN-6-(slider carousel of line moving)--------->
+      <div class="slider-contained-container-full">
+        <div class="slider-full-contained">
+          <div class="slider-contained">
+            <!-- 1 -->
+            <div class="slider-conatineer-contained">
+              <div class="slider-heading">
+                <h2>Miracles by Dr. Luisa</h2>
+              </div>
+              <div class="slider-para">
+                <h3>Smile better, Confidently</h3>
+              </div>
             </div>
-            <!-- RIGHT -->
-            <div class="contact-right-section">
-                <form id="contactus">
-                    <!-- 1 -->
-                     <div class="form-container">
-                        <!-- AAA -->
-                        <div class="flex-item">
-                            <!-- label -->
-                             <div class="contact-right-label lable-setting">
-                                <label for="name">Name</label>
-                             </div>
-                             <!-- for-input -->
-                              <div class="contact-right-input input-image-flezzz">
-                                <input type="text" id="name" name="name" class="input-image-set bg-image " value="">
-                              </div>
-                              <!--  -->
-                        </div>
-                        <!-- BBB -->
-                         <div class="flex-email-phone-container best-container-contained">
-                            <div class="flex-item">
-                                <div class="contact-right-label">
-                                    <label for="email">Email Address</label>
-                                </div>
-                                <div class="contact-right-input">
-                                    <input type="text" id="email" name="email" class="input-image-set1 bg-image" value="">
-                                </div>
-                            </div>
-                            <div class="flex-item">
-                              <div class="contact-right-label phone-label-set">
-                                <label for="name">Phone No.</label>
-                              </div>
-                                <div class="contact-right-input">
-                                  <input type="text" id="phone" name="phone" class="input-image-set2 bg-image " value="">
-                                </div>
-                            </div>
-                        </div>
-                         <!-- END -->
-                     </div>                   
-                     <!-- 2 -->
-                      <div class="form-container">
+            <!-- 2 -->
+            <div class="container-contained-wrapper">
+              <div class="container15">
+                <div class="slider-wrapper">
+                  <!-- Left Arrow Button -->
+                  <button
+                    id="prev-slide"
+                    class="slide-button material-symbols-rounded"
+                  ></button>
 
-                      </div>
-                </form>
+                  <!-- Scrollbar Track and Thumb -->
+                  <div class="slider-scrollbar">
+                    <div class="scrollbar-track">
+                      <div class="scrollbar-thumb"></div>
+                    </div>
+                  </div>
+
+                  <!-- Image List inside UL with LI elements -->
+                  <ul class="image-list" id="imageList">
+                    <li>
+                      <img
+                        class="image-item"
+                        src="/assets/a-images/teeth1.jpg"
+                        alt="Before and After Teeth Whitening Treatment Teeth"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        class="image-item"
+                        src="/assets/a-images/teeth2.jpg"
+                        alt="Before and After Dental Implant Treatment Teeth"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        class="image-item"
+                        src="/assets/a-images/teeth3.jpg"
+                        alt="Before and After Composite Bonding Treatment Teeth"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        class="image-item"
+                        src="/assets/a-images/teeth4.jpg"
+                        alt="Before and After Teeth Whitening Treatment Teeth"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        class="image-item"
+                        src="/assets/a-images/teeth5.jpg"
+                        alt="Before and After Porcelain Veneers Treatment Teeth"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        class="image-item"
+                        src="/assets/a-images/teeth6.jpg"
+                        alt="Before and After Teeth Whitening Treatment Teeth"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        class="image-item"
+                        src="/assets/a-images/teeth7.jpg"
+                        alt="Before and After Dr Luisa Patients"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        class="image-item"
+                        src="/assets/a-images/teeth8.jpeg"
+                        alt="Before and After Dr Luisa Patients"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        class="image-item"
+                        src="/assets/a-images/teeth9.jpeg"
+                        alt="Before and After Dr Luisa Patients"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        class="image-item"
+                        src="/assets/a-images/teeth10.jpeg"
+                        alt="Before and After Dr Luisa Patients"
+                      />
+                    </li>
+                    <li>
+                      <img
+                        class="image-item"
+                        src="/assets/a-images/teeth11.jpeg"
+                        alt="Before and After Dr Luisa Patients"
+                      />
+                    </li>
+                  </ul>
+
+                  <!-- Right Arrow Button -->
+                  <button
+                    id="next-slide"
+                    class="slide-button material-symbols-rounded"
+                  ></button>
+                </div>
+              </div>
             </div>
-
+            <!--  -->
+          </div>
         </div>
-    </div>
-</div>
+      </div>
+      <!----------MAIN-7----(FOR SCROLLER FOR LOGOS OF COMPANIES)----->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- ----------------------------------------------------- -->
-
-<!-----------------FOR SCROLLER FOR LOGOS OF COMPANIES------------main11------- -->
-
-<section class="bg-white">
-    <div class="container mt-5 mb-5">
-        <!-- 1 -->
-        <div class="text-center mb-5">
-            <h2 class="text-theme partners-heading"> 
-                The <span class="text-golden">Partners</span>
-                 Dr Luisa Works With
+      <section class="bg-white">
+        <div class="container mt-5 mb-5">
+          <!-- 1 -->
+          <div class="text-center mb-5">
+            <h2 class="text-theme partners-heading">
+              The <span class="text-golden">Partners</span>
+              Dr Luisa Works With
             </h2>
-        </div>
-        <!-- 2 -->
-        
-        <div class="owl-carousel owl-theme work-logo-carousel"> 
-        <div class="item-part">
-            <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
-                <img class="img-slider" src="/assets/a-images/work1.webp" height="50" alt="3 shape logo">
-            </a>
-        </div> 
-        <div class="item-part">
-            <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
-                <img class="img-slider" src="/assets/a-images/work2.webp" height="50" alt="3 shape logo">
-            </a>
-        </div> 
-        <div class="item-part">
-            <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
-                <img class="img-slider" src="/assets/a-images/work3.webp" height="50" alt="3 shape logo">
-            </a>
-        </div> 
-        <div class="item-part">
-            <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
-                <img class="img-slider" src="/assets/a-images/work7.webp" height="50" alt="3 shape logo">
-            </a>
-        </div> 
-        <div class="item-part">
-            <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
-                <img class="img-slider" src="/assets/a-images/work8.webp" height="50" alt="3 shape logo">
-            </a>
-        </div> 
-        <div class="item-part">
-            <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
-                <img class="img-slider" src="/assets/a-images/work9.webp" height="50" alt="3 shape logo">
-            </a>
-        </div> 
-        <div class="item-part">
-            <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
-                <img class="img-slider" src="/assets/a-images/work12.webp" height="50" alt="3 shape logo">
-            </a>
-        </div> 
-        <div class="item-part">
-            <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
-                <img class="img-slider" src="/assets/a-images/work4.webp" height="50" alt="3 shape logo">
-            </a>
-        </div> 
-        <div class="item-part">
-            <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
-                <img class="img-slider" src="/assets/a-images/work5.webp" height="50" alt="3 shape logo">
-            </a>
-        </div> 
-        <div class="item-part">
-            <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
-                <img class="img-slider" src="/assets/a-images/work6.webp" height="50" alt="3 shape logo">
-            </a>
-        </div> 
+          </div>
+          <!-- 2 -->
 
-        <div class="item-part">
-            <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
-                <img class="img-slider" src="/assets/a-images/work11.webp" height="50" alt="3 shape logo">
-            </a>
-        </div> 
-        <div class="item-part">
-            <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
-                <img class="img-slider" src="/assets/a-images/work12.webp" height="50" alt="3 shape logo">
-            </a>
-        </div> 
-        <div class="item-part">
-            <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
-                <img class="img-slider" src="/assets/a-images/work13.webp" height="50" alt="3 shape logo">
-            </a>
-        </div> 
-        </div>
-           
-    </div>
-</section> 
+          <div class="owl-carousel owl-theme work-logo-carousel">
+            <div class="item-part">
+              <a
+                href="https://www.3shape.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  class="img-slider"
+                  src="/assets/a-images/work1.webp"
+                  height="50"
+                  alt="3 shape logo"
+                />
+              </a>
+            </div>
+            <div class="item-part">
+              <a
+                href="https://www.3shape.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  class="img-slider"
+                  src="/assets/a-images/work2.webp"
+                  height="50"
+                  alt="3 shape logo"
+                />
+              </a>
+            </div>
+            <div class="item-part">
+              <a
+                href="https://www.3shape.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  class="img-slider"
+                  src="/assets/a-images/work3.webp"
+                  height="50"
+                  alt="3 shape logo"
+                />
+              </a>
+            </div>
+            <div class="item-part">
+              <a
+                href="https://www.3shape.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  class="img-slider"
+                  src="/assets/a-images/work7.webp"
+                  height="50"
+                  alt="3 shape logo"
+                />
+              </a>
+            </div>
+            <div class="item-part">
+              <a
+                href="https://www.3shape.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  class="img-slider"
+                  src="/assets/a-images/work8.webp"
+                  height="50"
+                  alt="3 shape logo"
+                />
+              </a>
+            </div>
+            <div class="item-part">
+              <a
+                href="https://www.3shape.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  class="img-slider"
+                  src="/assets/a-images/work9.webp"
+                  height="50"
+                  alt="3 shape logo"
+                />
+              </a>
+            </div>
+            <div class="item-part">
+              <a
+                href="https://www.3shape.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  class="img-slider"
+                  src="/assets/a-images/work12.webp"
+                  height="50"
+                  alt="3 shape logo"
+                />
+              </a>
+            </div>
+            <div class="item-part">
+              <a
+                href="https://www.3shape.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  class="img-slider"
+                  src="/assets/a-images/work4.webp"
+                  height="50"
+                  alt="3 shape logo"
+                />
+              </a>
+            </div>
+            <div class="item-part">
+              <a
+                href="https://www.3shape.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  class="img-slider"
+                  src="/assets/a-images/work5.webp"
+                  height="50"
+                  alt="3 shape logo"
+                />
+              </a>
+            </div>
+            <div class="item-part">
+              <a
+                href="https://www.3shape.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  class="img-slider"
+                  src="/assets/a-images/work6.webp"
+                  height="50"
+                  alt="3 shape logo"
+                />
+              </a>
+            </div>
 
-<!-- =========================TESTIMONIAL-CONTAINER==============main12============ -->
-<div class="testimonial-container">
-    <div class="test-container-full-contained">
-        <div class="testi-full-container">
-          <div class="testi-containerr-contained">
-                <div class="testi-para">
-                   <h2>People trust Dr. Luisa</h2>
+            <div class="item-part">
+              <a
+                href="https://www.3shape.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  class="img-slider"
+                  src="/assets/a-images/work11.webp"
+                  height="50"
+                  alt="3 shape logo"
+                />
+              </a>
+            </div>
+            <div class="item-part">
+              <a
+                href="https://www.3shape.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  class="img-slider"
+                  src="/assets/a-images/work12.webp"
+                  height="50"
+                  alt="3 shape logo"
+                />
+              </a>
+            </div>
+            <div class="item-part">
+              <a
+                href="https://www.3shape.com/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <img
+                  class="img-slider"
+                  src="/assets/a-images/work13.webp"
+                  height="50"
+                  alt="3 shape logo"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ---------------------MAIN-8-(for-contact)-->
+       <!-- 1--MODAL -->
+      <div
+        class="modal fade"
+        id="staticBackdrop"
+        data-bs-backdrop="static"
+        data-bs-keyboard="false"
+        tabindex="-1"
+        aria-labelledby="staticBackdropLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                Validation Error
+              </h1>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <div
+                id="error-name-required"
+                class="validation-error"
+                style="display: none"
+              >
+                Name is required
+              </div>
+              <div
+                id="error-email-required"
+                class="validation-error"
+                style="display: none"
+              >
+                Email address is required
+              </div>
+              <div
+                id="error-email-invalid"
+                class="validation-error"
+                style="display: none"
+              >
+                Please enter a valid email address
+              </div>
+              <div
+                id="error-phone-required"
+                class="validation-error"
+                style="display: none"
+              >
+                Phone number is required
+              </div>
+              <div
+                id="error-phone-invalid"
+                class="validation-error"
+                style="display: none"
+              >
+                Please enter a valid phone number
+              </div>
+              <div
+                id="error-practice-required"
+                class="validation-error"
+                style="display: none"
+              >
+                Practice selection is required
+              </div>
+              <div
+                id="error-message-required"
+                class="validation-error"
+                style="display: none"
+              >
+                Message is required
+              </div>
+              <div
+                id="error-message-minlength"
+                class="validation-error"
+                style="display: none"
+              >
+                Message must be at least 10 characters long.
+              </div>
+              <div
+                id="error-consent-required"
+                class="validation-error"
+                style="display: none"
+              >
+                You must consent to the privacy policy
+              </div>
+              <div
+                id="success-message"
+                class="validation-success"
+                style="display: none"
+              >
+                Form submitted successfully!
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--2-- FORM PART -->
+      <div class="contact">
+        <div class="contact-main">
+          <div class="contact-main-inside">
+            <div class="contact-left-side">
+              <div class="lusia-content lusia-flus">
+                <div class="lusia-img">
+                  <img
+                    src="data:image/svg+xml,%3csvg%20width='30'%20height='2'%20viewBox='0%200%2030%202'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cline%20y1='1'%20x2='30'%20y2='1'%20stroke='%23D521A0'%20stroke-width='2'/%3e%3c/svg%3e"
+                    alt=""
+                  />
                 </div>
-                 <div class="testimon-para">
-                <p>Have a look at the feedback from Dr Luisa’s patients following their treatments.</p>
-                 </div>
-             </div>
+                <div class="lusia-heading">
+                  <h2 class="lusia-heading-control control-set-flex">
+                    Get In Touch
+                  </h2>
+                </div>
+              </div>
+              <div class="set-image-set">
+                <img
+                  src="/assets/a-images/form-image.jpeg"
+                  alt="Dr Luisa holding a dental model"
+                />
+              </div>
+              <div class="question-lusia">
+                <p>
+                  Simply complete the form and one of our team will get in touch
+                  to help you get the smile you deserve.
+                </p>
+              </div>
+              <div class="insta-img-set">
+                <a href="https://www.instagram.com/the.pink.dentist">
+                  <img src="/assets/a-images/insta.png" alt="" />
+                </a>
+              </div>
+            </div>
+            <div class="contact-right-section">
+              <form id="contactus">
+                <div class="form-container">
+                  <div class="flex-item">
+                    <div class="contact-right-label lable-setting">
+                      <label for="name">Name</label>
+                    </div>
+                    <div class="contact-right-input input-image-flezzz">
+                      <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        class="input-image-set bg-image"
+                        value=""
+                      />
+                    </div>
+                  </div>
+                  <div
+                    class="flex-email-phone-container best-container-contained"
+                  >
+                    <div class="flex-item">
+                      <div class="contact-right-label">
+                        <label for="email">Email Address</label>
+                      </div>
+                      <div class="contact-right-input">
+                        <input
+                          type="text"
+                          id="email"
+                          name="email"
+                          class="input-image-set1 bg-image"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                    <div class="flex-item">
+                      <div class="contact-right-label phone-label-set">
+                        <label for="phone">Phone No.</label>
+                      </div>
+                      <div class="contact-right-input">
+                        <input
+                          type="text"
+                          id="phone"
+                          name="phone"
+                          class="input-image-set2 bg-image"
+                          value=""
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex-item">
+                    <div class="contact-right-label ok-label peal-label">
+                      <label for="practice"
+                        >Which Practice would you like to be treated at</label
+                      >
+                    </div>
+                    <div class="custom-select1">
+                      <select
+                        id="practice"
+                        name="practice"
+                        class="ddd select-date"
+                      >
+                        <option value="" disabled="" selected="" hidden="">
+                          Which Practice would you like to be treated at
+                        </option>
+                        <option value="All Saints Dental">
+                          All Saints Dental
+                        </option>
+                        <option value="{my}dentist Kings Norton">
+                          {my}dentist Kings Norton
+                        </option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="flex-item">
+                    <div class="contact-right-label msg-label">
+                      <label for="message">Message</label>
+                    </div>
+                    <textarea id="message" name="message"></textarea>
+                  </div>
+                </div>
+                <div class="form-container">
+                  <div class="para-form2">
+                    <div class="para-form-input">
+                      <div class="input-checked">
+                        <input
+                          type="checkbox"
+                          id="consentCheckbox"
+                          class="custom-checkbox"
+                        />
+                      </div>
+                      <div class="para-form2-content">
+                        <p>
+                          I consent to my personal data being collected and
+                          stored as per the
+                          <a href="/privacypage" style="text-decoration: none">
+                            <span style="color: rgb(213, 33, 160)"
+                              >Privacy Policy.</span
+                            >
+                          </a>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-button">
+                    <button type="button" id="submitContactForm">
+                      Submit Form
+                      <img
+                        src="data:image/svg+xml,%3csvg%20width='21'%20height='20'%20viewBox='0%200%2021%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_125)'%3e%3cpath%20d='M14.667%205.83337L6.33366%2014.1667'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M7.16699%205.83337H14.667V13.3334'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_125'%3e%3crect%20width='20'%20height='20'%20fill='white'%20transform='matrix(-1%200%200%201%2020.5%200)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                        alt=""
+                      />
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--===============MAIN-9(SCROLLER)=========================================================== -->
+      <!-- =========================TESTIMONIAL-CONTAINER==============main-9======================= -->
+      <div class="testimonial-container">
+        <div class="test-container-full-contained">
+          <div class="testi-full-container">
+            <div class="testi-containerr-contained">
+              <div class="testi-para">
+                <h2>People trust Dr. Luisa</h2>
+              </div>
+              <div class="testimon-para">
+                <p>
+                  Have a look at the feedback from Dr Luisa’s patients following
+                  their treatments.
+                </p>
+              </div>
+            </div>
             <div class="slider-container">
-                 <div class="gradiant1">
-                       <div class="g-card1"></div>
-                 </div>
-                 <div class="slider-flex-main">
-                   <div class="slider-flex">
-        <div class="owl-carousel owl-theme testimonials-carousel"> 
-            <div class="slider-item">
-                <div class="slider-img">
-                    <img src="/assets/a-images/rating.png" alt="Review Rating Stars">
-                </div>
-                <div class="p-para-test">
-                    <div class="p-para">
-                        <p>
-                            <span>I took my very nervous 9 year old to this dentist and she was
-                                absolutely brilliant. Showed her everything she was doing and put
-                                her at ease. I even managed to get her to go back and see the same
-                                dentist for a temporary filling which she would never normally agree
-                                to! Quite pricey but don't mind paying the price for them to be so kind
-                                and put my child at ease.<span style="color: white;">Lorem, ipsum dolor
-                                    sit amet consectetur Lorem, ipsum dolor sit amet consectetur</span>
+              <div class="gradiant1">
+                <div class="g-card1"></div>
+              </div>
+              <div class="slider-flex-main">
+                <div class="slider-flex">
+                  <div class="owl-carousel owl-theme testimonials-carousel">
+                    <div class="slider-item">
+                      <div class="slider-img">
+                        <img
+                          src="/assets/a-images/rating.png"
+                          alt="Review Rating Stars"
+                        />
+                      </div>
+                      <div class="p-para-test">
+                        <div class="p-para">
+                          <p>
+                            <span
+                              >I took my very nervous 9 year old to this dentist
+                              and she was absolutely brilliant. Showed her
+                              everything she was doing and put her at ease. I
+                              even managed to get her to go back and see the
+                              same dentist for a temporary filling which she
+                              would never normally agree to! Quite pricey but
+                              don't mind paying the price for them to be so kind
+                              and put my child at ease.<span
+                                style="color: white"
+                                >Lorem, ipsum dolor sit amet consectetur Lorem,
+                                ipsum dolor sit amet consectetur</span
+                              >
                             </span>
-                        </p>
-                    </div>
-                </div>
-                <div class="left-section-content-test">
-                    <div class="left-section-content-container-test">
-                        <div class="le-test">
-                            <div class="le-image-test">
-                                <img src="/assets/a-images/img-testi2.svg" alt="Tony Dr Luisa's Restorative Dentistry Patient">
-                            </div>
+                          </p>
                         </div>
-                        <div class="re-test">
+                      </div>
+                      <div class="left-section-content-test">
+                        <div class="left-section-content-container-test">
+                          <div class="le-test">
+                            <div class="le-image-test">
+                              <img
+                                src="/assets/a-images/img-testi2.svg"
+                                alt="Tony Dr Luisa's Restorative Dentistry Patient"
+                              />
+                            </div>
+                          </div>
+                          <div class="re-test">
                             <div class="re-heading-test">Tony</div>
+                          </div>
                         </div>
+                      </div>
                     </div>
-                </div>
-            </div>
-            <div class="slider-item">
-                <div class="slider-img">
-                    <img src="/assets/a-images/rating.png" alt="Review Rating Stars">
-                </div>
-                <div class="p-para-test">
-                    <div class="p-para">
-                        <p>
-                            <span>I took my very nervous 9 year old to this dentist and she was
-                                absolutely brilliant. Showed her everything she was doing and put
-                                her at ease. I even managed to get her to go back and see the same
-                                dentist for a temporary filling which she would never normally agree
-                                to! Quite pricey but don't mind paying the price for them to be so kind
-                                and put my child at ease.<span style="color: white;">Lorem, ipsum dolor
-                                    sit amet consectetur Lorem, ipsum dolor sit amet consectetur</span>
+                    <div class="slider-item">
+                      <div class="slider-img">
+                        <img
+                          src="/assets/a-images/rating.png"
+                          alt="Review Rating Stars"
+                        />
+                      </div>
+                      <div class="p-para-test">
+                        <div class="p-para">
+                          <p>
+                            <span
+                              >I took my very nervous 9 year old to this dentist
+                              and she was absolutely brilliant. Showed her
+                              everything she was doing and put her at ease. I
+                              even managed to get her to go back and see the
+                              same dentist for a temporary filling which she
+                              would never normally agree to! Quite pricey but
+                              don't mind paying the price for them to be so kind
+                              and put my child at ease.<span
+                                style="color: white"
+                                >Lorem, ipsum dolor sit amet consectetur Lorem,
+                                ipsum dolor sit amet consectetur</span
+                              >
                             </span>
-                        </p>
-                    </div>
-                </div>
-                <div class="left-section-content-test">
-                    <div class="left-section-content-container-test">
-                        <div class="le-test">
-                            <div class="le-image-test">
-                                <img src="/assets/a-images/img-testi5.jpg" alt="Tony Dr Luisa's Restorative Dentistry Patient">
-                            </div>
+                          </p>
                         </div>
-                        <div class="re-test">
+                      </div>
+                      <div class="left-section-content-test">
+                        <div class="left-section-content-container-test">
+                          <div class="le-test">
+                            <div class="le-image-test">
+                              <img
+                                src="/assets/a-images/img-testi5.jpg"
+                                alt="Tony Dr Luisa's Restorative Dentistry Patient"
+                              />
+                            </div>
+                          </div>
+                          <div class="re-test">
                             <div class="re-heading-test">Anon</div>
+                          </div>
                         </div>
+                      </div>
                     </div>
-                </div>
-            </div>
-            <div class="slider-item">
-                <div class="slider-img">
-                    <img src="/assets/a-images/rating.png" alt="Review Rating Stars">
-                </div>
-                <div class="p-para-test">
-                    <div class="p-para">
-                        <p>
-                            <span>Two fillings today. No local at my request, didn’t feel a thing. Luisa and nurse very mindful of my disability and issues with swallowing and fear of choking. Couldn’t have had better treatment. <span style="color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic perspiciatis fugiat aliquam quia reprehenderit perferendis iure dolor sit quis iusto!
-                                        aliquam quia reprehenderit perferendis iure dolor sit quis iusto! perferendis iure dolor sit quis iusto!</span></span>
-                        </p>
-                    </div>
-                </div>
-                <div class="left-section-content-test">
-                    <div class="left-section-content-container-test">
-                        <div class="le-test">
+                    <div class="slider-item">
+                      <div class="slider-img">
+                        <img
+                          src="/assets/a-images/rating.png"
+                          alt="Review Rating Stars"
+                        />
+                      </div>
+                      <div class="p-para-test">
+                        <div class="p-para">
+                          <p>
+                            <span
+                              >Two fillings today. No local at my request,
+                              didn’t feel a thing. Luisa and nurse very mindful
+                              of my disability and issues with swallowing and
+                              fear of choking. Couldn’t have had better
+                              treatment.
+                              <span style="color: white"
+                                >Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Hic perspiciatis fugiat
+                                aliquam quia reprehenderit perferendis iure
+                                dolor sit quis iusto! aliquam quia reprehenderit
+                                perferendis iure dolor sit quis iusto!
+                                perferendis iure dolor sit quis iusto!</span
+                              ></span
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div class="left-section-content-test">
+                        <div class="left-section-content-container-test">
+                          <div class="le-test">
                             <div class="le-image-test">
-                                <img src="/assets/a-images/img-testi2.svg" alt="Tony Dr Luisa's Restorative Dentistry Patient">
+                              <img
+                                src="/assets/a-images/img-testi2.svg"
+                                alt="Tony Dr Luisa's Restorative Dentistry Patient"
+                              />
                             </div>
-                        </div>
-                        <div class="re-test">
+                          </div>
+                          <div class="re-test">
                             <div class="re-heading-test">Tony</div>
+                          </div>
                         </div>
+                      </div>
                     </div>
-                </div>
-            </div>
-            <div class="slider-item">
-                <div class="slider-img">
-                    <img src="/assets/a-images/rating.png" alt="Review Rating Stars">
-                </div>
-                <div class="p-para-test">
-                    <div class="p-para">
-                        <p>
-                            <span>I took my very nervous 9 year old to this dentist and she was
-                                absolutely brilliant. Showed her everything she was doing and put
-                                her at ease. I even managed to get her to go back and see the same
-                                dentist for a temporary filling which she would never normally agree
-                                to! Quite pricey but don't mind paying the price for them to be so kind
-                                and put my child at ease.<span style="color: white;">Lorem, ipsum dolor
-                                    sit amet consectetur Lorem, ipsum dolor sit amet consectetur</span>
+                    <div class="slider-item">
+                      <div class="slider-img">
+                        <img
+                          src="/assets/a-images/rating.png"
+                          alt="Review Rating Stars"
+                        />
+                      </div>
+                      <div class="p-para-test">
+                        <div class="p-para">
+                          <p>
+                            <span
+                              >I took my very nervous 9 year old to this dentist
+                              and she was absolutely brilliant. Showed her
+                              everything she was doing and put her at ease. I
+                              even managed to get her to go back and see the
+                              same dentist for a temporary filling which she
+                              would never normally agree to! Quite pricey but
+                              don't mind paying the price for them to be so kind
+                              and put my child at ease.<span
+                                style="color: white"
+                                >Lorem, ipsum dolor sit amet consectetur Lorem,
+                                ipsum dolor sit amet consectetur</span
+                              >
                             </span>
-                        </p>
-                    </div>
-                </div>
-                <div class="left-section-content-test">
-                    <div class="left-section-content-container-test">
-                        <div class="le-test">
-                            <div class="le-image-test">
-                                <img src="/assets/a-images/img-testi2.svg" alt="Tony Dr Luisa's Restorative Dentistry Patient">
-                            </div>
+                          </p>
                         </div>
-                        <div class="re-test">
+                      </div>
+                      <div class="left-section-content-test">
+                        <div class="left-section-content-container-test">
+                          <div class="le-test">
+                            <div class="le-image-test">
+                              <img
+                                src="/assets/a-images/img-testi2.svg"
+                                alt="Tony Dr Luisa's Restorative Dentistry Patient"
+                              />
+                            </div>
+                          </div>
+                          <div class="re-test">
                             <div class="re-heading-test">Tony</div>
+                          </div>
                         </div>
+                      </div>
                     </div>
-                </div>
-            </div>
-            <div class="slider-item">
-                <div class="slider-img">
-                    <img src="/assets/a-images/rating.png" alt="Review Rating Stars">
-                </div>
-                <div class="p-para-test">
-                    <div class="p-para">
-                        <p>
+                    <div class="slider-item">
+                      <div class="slider-img">
+                        <img
+                          src="/assets/a-images/rating.png"
+                          alt="Review Rating Stars"
+                        />
+                      </div>
+                      <div class="p-para-test">
+                        <div class="p-para">
+                          <p>
                             <span>
-                                Tooth extraction for my child was very smooth and made my child very comfortable.<span style="color: white;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Hic perspiciatis fugiat aliquam quia reprehenderit perferendis iure dolor sit quis iusto! aliquam quia reprehenderit perferendis iure dolor sit quis iusto! perferendis iure dolor sit
-                                        quis iusto! aliquam quia reprehenderit perferendis iure dolor sit quis iusto! aliquam quia reprehenderit</span></span>
-                        </p>
-                    </div>
-                </div>
-                <div class="left-section-content-test">
-                    <div class="left-section-content-container-test">
-                        <div class="le-test">
+                              Tooth extraction for my child was very smooth and
+                              made my child very comfortable.<span
+                                style="color: white"
+                                >Lorem, ipsum dolor sit amet consectetur
+                                adipisicing elit. Hic perspiciatis fugiat
+                                aliquam quia reprehenderit perferendis iure
+                                dolor sit quis iusto! aliquam quia reprehenderit
+                                perferendis iure dolor sit quis iusto!
+                                perferendis iure dolor sit quis iusto! aliquam
+                                quia reprehenderit perferendis iure dolor sit
+                                quis iusto! aliquam quia reprehenderit</span
+                              ></span
+                            >
+                          </p>
+                        </div>
+                      </div>
+                      <div class="left-section-content-test">
+                        <div class="left-section-content-container-test">
+                          <div class="le-test">
                             <div class="le-image-test">
-                                <img src="/assets/a-images/img testi7.svg" alt="Tony Dr Luisa's Restorative Dentistry Patient">
+                              <img
+                                src="/assets/a-images/img testi7.svg"
+                                alt="Tony Dr Luisa's Restorative Dentistry Patient"
+                              />
                             </div>
-                        </div>
-                        <div class="re-test">
+                          </div>
+                          <div class="re-test">
                             <div class="re-heading-test">J Liza</div>
+                          </div>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-                   </div>
-                 </div>
+              </div>
 
-                 <div class="custom-arrows-contained">
-    <div class="custom-arrows">
-        <div class="custom-arrow custom-prev testimonials-prev-btn"> 
-            <img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_164)'%3e%3cpath%20d='M5%2012H19'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M15%2016L19%2012'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M15%208L19%2012'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_164'%3e%3crect%20width='24'%20height='24'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="Pre">
-        </div>
-        <div class="custom-arrow custom-next active testimonials-next-btn">
-            <img src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_170)'%3e%3cpath%20d='M19%2012H5'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M9%2016L5%2012'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M9%208L5%2012'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_170'%3e%3crect%20width='24'%20height='24'%20fill='white'%20transform='matrix(-1%200%200%201%2024%200)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e" alt="Next">
-        </div>
-    </div>
+              <div class="custom-arrows-contained">
+                <div class="custom-arrows">
+                  <div class="custom-arrow custom-prev testimonials-prev-btn">
+                    <img
+                      src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_164)'%3e%3cpath%20d='M5%2012H19'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M15%2016L19%2012'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M15%208L19%2012'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_164'%3e%3crect%20width='24'%20height='24'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                      alt="Pre"
+                    />
+                  </div>
+                  <div
+                    class="custom-arrow custom-next active testimonials-next-btn"
+                  >
+                    <img
+                      src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_170)'%3e%3cpath%20d='M19%2012H5'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M9%2016L5%2012'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M9%208L5%2012'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_170'%3e%3crect%20width='24'%20height='24'%20fill='white'%20transform='matrix(-1%200%200%201%2024%200)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                      alt="Next"
+                    />
+                  </div>
                 </div>
+              </div>
             </div>
-
+          </div>
         </div>
-    </div>
-</div>
-<!-------------------- FOOTER----------------main13-------->
-
-<div class="Footer">
+      </div>
+      <!-------------------- FOOTER----------------main-10-------->
+      </main>
+      <div class="Footer">
         <div class="Footer-main-container">
           <!-- 1 -->
           <div class="Footer-upper-section">
@@ -1101,31 +1569,22 @@
             </div>
           </div>
         </div>
-</div>
+      </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <!--------------------- MAIN-11------------------------->
+      <div class="insta-button">
+        <a
+          href="https://www.instagram.com/the.pink.dentist/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src="data:image/png;base64,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"
+            alt="Instagram"
+            class="insta-icon"
+        /></a>
+      </div>
     </div>
-
 
     <!-- -----------------------------end----------------------------------- -->
     <!-- JAVASCRIPT FILES LINK -->
@@ -1140,82 +1599,72 @@
     <script>
       AOS.init();
     </script>
- <!-- for fotter above carou -->
-       
-        <script>
- 
-        // =======================================================
-        // Script for the Testimonials Carousel (your first one)
-        // =======================================================
-        var testimonialsOwl = $('.testimonials-carousel'); // TARGET THIS CAROUSEL SPECIFICALLY
-        testimonialsOwl.owlCarousel({
-            loop:true,
-            margin:10,
-            nav:false, // Keep false if using custom external buttons
-            dots:false,
-            autoplay:false, // Assuming you want testimonials to autoplay
-            autoplayTimeout:5000,
-            autoplayHoverPause:true,
-            smartSpeed: 800,
-            slideBy: 1, // Moves one item at a time
-            responsive:{
-                0:{ items:1 }, // 1 item from 0px to 499px
-                500:{ items:2 }, // 2 items from 500px to 721px
-                756:{ items:3 }  // 3 items from 722px and up
-            }
+
+    <!-- for fotter above carou -->
+    <script>
+      // =======================================================
+      // Script for the Testimonials Carousel (your first one)
+      // =======================================================
+      var testimonialsOwl = $(".testimonials-carousel"); 
+      testimonialsOwl.owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: false, 
+        dots: false,
+        autoplay: false, 
+        autoplayTimeout: 5000,
+        autoplayHoverPause: true,
+        smartSpeed: 800,
+        slideBy: 1,
+        responsive: {
+          0: { items: 1 }, 
+          500: { items: 2 }, 
+          756: { items: 3 }, 
+        },
+      });
+
+      $(".testimonials-next-btn").click(function () {
+        testimonialsOwl.trigger("prev.owl.carousel");
+      });
+      $(".testimonials-prev-btn").click(function () {
+        testimonialsOwl.trigger("next.owl.carousel");
+      });
+    </script>
+
+    <!-- for workING LOGOS  -->
+    <script>
+      $(document).ready(function () {
+        $(".work-logo-carousel").owlCarousel({
+          loop: true,
+          margin: 20, 
+          nav: false,
+          dots: false, 
+          autoplay: true, 
+          autoplayTimeout: 2000, 
+          autoplayHoverPause: true, 
+          slideBy: 1, 
+          smartSpeed: 500, 
+          responsive: {
+            0: {
+              items: 5, 
+            },
+            576: {
+              items: 5,
+            },
+            768: {
+              items: 6, 
+            },
+            992: {
+              items: 6, 
+            },
+            1200: {
+              items: 6,
+            },
+          },
         });
+      });
+    </script>
 
-        $('.testimonials-next-btn').click(function() { 
-            testimonialsOwl.trigger('prev.owl.carousel');
-        });
-        $('.testimonials-prev-btn').click(function() { 
-            testimonialsOwl.trigger('next.owl.carousel');
-        });
-        </script>
-<!-- for work  -->
-
-         <script>
-    $(document).ready(function(){
-        // =======================================================
-        // Script for the Work Logos Carousel (Partners Section)
-        // TARGETED SPECIFICALLY with '.work-logo-carousel'
-        // =======================================================
-        $('.work-logo-carousel').owlCarousel({ 
-            loop:true,                      // Loop the carousel continuously
-            margin:20,                      // Margin between items
-            nav:false,                      // Hide default navigation buttons
-            dots:false,                     // Hide default dots
-            autoplay:true,                  // Autoplay the carousel
-            autoplayTimeout:2000,           // Autoplay interval in milliseconds (e.g., 3 seconds)
-            autoplayHoverPause:true,        // Pause autoplay when mouse hovers over the carousel
-            slideBy: 1,                     // Move one item per navigation click
-            smartSpeed: 500,                // Speed of the transition animation
-
-            // Responsive settings for showing different number of items based on screen width
-            responsive:{
-                0:{             // For screens 0px to 575px
-                    items:5   // Show 2 items
-                } ,
-                576:{           // For screens 576px to 767px
-                    items:5     // Show 3 items
-                },
-                768:{           // For screens 768px to 991px
-                    items:6     // Show 4 items
-                },
-                992:{           // For screens 992px to 1199px
-                    items:6    // Show 5 items
-                },
-                1200:{          // For screens 1200px and wider
-                    items:6     // Show 6 items (as per your request for larger views)
-                }
-            }
-        });
-
-
-    });
-         </script>
- 
     <!--  -->
-
-</body>
+  </body>
 </html>
