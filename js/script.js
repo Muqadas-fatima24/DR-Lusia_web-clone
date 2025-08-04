@@ -15,7 +15,6 @@ if (dropdownMenu && dropdownIcon) {
 });
 // END TO DROPDOWN
 
-
 //  form validation
 // ................................
 document.addEventListener('DOMContentLoaded', function() {
@@ -422,4 +421,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Attach the submission handler to the form's submit event
     form.addEventListener('submit', handleFormSubmission);
-});
+}); 
