@@ -218,7 +218,7 @@
               />
             </div> -->
             <div class="leader-left-img10">
-              <img src="/assets/a-images/about-4.png" class="image-fluid" alt="" />
+              <img src="assets/a-images/about-4.png" class="image-fluid" alt="" />
             </div>
             <div class="leader-content-container">
               <div class="leading-heading-flex">
