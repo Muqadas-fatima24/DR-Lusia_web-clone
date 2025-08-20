@@ -6,7 +6,7 @@ include_once "head.php";
 <!-- head end -->
 
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" cz-shortcut-listen="true">
-  <div style="width: 100%; overflow-x: hidden">
+  <div style="width: 100%;">
     <!----------------------HEADER----------------------->
 
     <section>
