@@ -15,7 +15,7 @@ include_once "head.php";
 
     <!---------------------MAIN-------------------------->
     <main>
-      <div style="width: 100%; overflow-x: hidden">
+      <!-- <div style="width: 100%; overflow-x: hidden"> -->
       <div class="treat-container treatcontainer-merging">
         <div class="treat-img">
           <img src="assets/a-images/bgg-banner.svg" alt="" />
@@ -88,9 +88,9 @@ include_once "head.php";
           </div>
         </div>
       </div>
-</div>
+<!-- </div> -->
       <!--------------------- MAIN-2------------------------->
-  <div style="width: 100%; overflow: hidden">
+  <!-- <div style="width: 100%; overflow: hidden"> -->
       <div class="treat-container-responsive treatcontainer-merging-ok">
         <div class="image-container-responsive">
           <div class="treat-img1">
@@ -893,7 +893,7 @@ include_once "head.php";
           </div>
         </div>
       </div>
-      </div>
+      <!-- </div> -->
       <!-------------------- FOOTER----------------main-10-------->
     </main>
  <!-- </div> -->
