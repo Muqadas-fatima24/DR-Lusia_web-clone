@@ -11,7 +11,7 @@ if (dropdownMenu && dropdownIcon) {
             dropdownMenu.style.display = 'none';
         }
     });
-}
+} 
 });
 // END TO DROPDOWN
 
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
         document.querySelectorAll('.validation-error').forEach(el => el.style.display = 'none');
         successMessage.style.display = 'none';
     }
-
+ 
     // Helper function to validate email format
     function isValidEmail(email) {
         const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
-    // Main validation logic (called by handleFormSubmission)
+    // Main validation logic (called by handleFormSubmission);
     function validateForm() {
         let isValid = true;
         hideAllErrors(); // Start by hiding all error messages
@@ -110,7 +110,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Validate Phone Number
         if (phoneInput.value.trim() === '') {
             errorPhoneRequired.style.display = 'block';
-            isValid = false;
+            isValid = false; 
         } else if (!isValidPhone(phoneInput.value.trim())) {
             errorPhoneInvalid.style.display = 'block';
             isValid = false;
@@ -184,7 +184,7 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
             inputElement.classList.remove('no-background-image'); 
         }
-    }
+    } 
 
     formFieldsToManageBackground.forEach(toggleInputBackground);
     formFieldsToManageBackground.forEach(field => {
@@ -279,8 +279,8 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('load', updateThumbPosition);
   window.addEventListener('resize', updateThumbPosition);
 });
-// ''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
-// when click on nav links 
+// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''..
+// when click on nav links colors
 document.addEventListener('DOMContentLoaded', function() {
 
     const navLinks = document.querySelectorAll('.nav-link');

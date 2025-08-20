@@ -1,20 +1,20 @@
 <?php
-  $home = "active"; 
-  $pageTitle = "Home | PINK WEBSITE(DR.LUSIA)";
-  include_once "head.php";   
+$home = "active";
+$pageTitle = "Home | PINK WEBSITE(DR.LUSIA)";
+include_once "head.php";
 ?>
 <!-- head end -->
 
-  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
-    <div style="width: 100%; overflow: hidden">
-      <!----------------------HEADER----------------------->
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" cz-shortcut-listen="true">
+  <!-- <div style="width: 100%; overflow: hidden"> -->
+    <!----------------------HEADER----------------------->
 
-   <section>
+    <section>
       <?php include_once "header.php" ?>
-   </section>
+    </section>
 
-      <!---------------------MAIN-------------------------->
-      <main>
+    <!---------------------MAIN-------------------------->
+    <main>
       <div class="treat-container treatcontainer-merging">
         <div class="treat-img">
           <img src="assets/a-images/bgg-banner.svg" alt="" />
@@ -22,18 +22,11 @@
         <div class="trest-full-container">
           <!-- left -->
           <div class="treat-left">
-            <div
-              class="left-heading aos-init aos-animate"
-              data-aos="fade-right"
-              data-aos-offset="200"
-              data-aos-duration="600"
-            >
+            <div class="left-heading aos-init aos-animate" data-aos="fade-right" data-aos-offset="200"
+              data-aos-duration="600">
               <h1 class="heading-control">
-                Treat yourself to a beautiful,<span
-                  style="color: rgb(213, 33, 160)"
-                >
-                  new </span
-                >smile
+                Treat yourself to a beautiful,<span style="color: rgb(213, 33, 160)">
+                  new </span>smile
               </h1>
               <div class="treat-para">
                 <p style="color: white">
@@ -42,38 +35,25 @@
               </div>
               <div class="left-button d-flex">
                 <a href="consult.php">
-                  <button
-                    style="
+                  <button style="
                       width: auto;
                       padding-left: 10px;
                       padding-right: 10px;
                       display: inline-block;
-                    "
-                  >
+                    ">
                     Book a Guest Appointment
                   </button>
                 </a>
               </div>
             </div>
-            <div
-              class="left-img aos-init aos-animate"
-              data-aos="zoom-in"
-              data-aos-duration="800"
-            >
-              <img
-                src="assets/a-images/banner-front.png"
-                alt="Dr Luisa Mateescu"
-              />
+            <div class="left-img aos-init aos-animate" data-aos="zoom-in" data-aos-duration="800">
+              <img src="assets/a-images/banner-front.png" alt="Dr Luisa Mateescu" />
             </div>
           </div>
           <!-- right -->
           <div class="treat-right">
-            <div
-              class="right-content-container aos-init"
-              data-aos="fade-left"
-              data-aos-offset="200"
-              data-aos-duration="600"
-            >
+            <div class="right-content-container aos-init" data-aos="fade-left" data-aos-offset="200"
+              data-aos-duration="600">
               <div class="right-heading">
                 <h2>LOCATIONS</h2>
               </div>
@@ -81,8 +61,7 @@
                 <div class="re">
                   <img
                     src="data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_330)'%3e%3cpath%20d='M18.3639%205.23615C20.0163%206.88829%2020.9613%209.11827%2020.9992%2011.4546C21.037%2013.7909%2020.1648%2016.0503%2018.5669%2017.7552L18.3639%2017.9652L14.1209%2022.2072C13.5826%2022.7452%2012.8598%2023.0585%2012.0991%2023.0835C11.3384%2023.1086%2010.5966%2022.8436%2010.0239%2022.3422L9.87993%2022.2072L5.63593%2017.9642C3.9481%2016.2763%202.99988%2013.9871%202.99988%2011.6002C2.99988%209.21319%203.9481%206.92399%205.63593%205.23615C7.32377%203.54832%209.61297%202.6001%2011.9999%202.6001C14.3869%202.6001%2016.6761%203.54832%2018.3639%205.23615ZM11.9999%208.60015C11.606%208.60015%2011.2159%208.67775%2010.8519%208.82851C10.4879%208.97928%2010.1572%209.20026%209.87861%209.47883C9.60004%209.75741%209.37906%2010.0881%209.2283%2010.4521C9.07753%2010.8161%208.99993%2011.2062%208.99993%2011.6002C8.99993%2011.9941%209.07753%2012.3842%209.2283%2012.7482C9.37906%2013.1122%209.60004%2013.4429%209.87861%2013.7215C10.1572%2014%2010.4879%2014.221%2010.8519%2014.3718C11.2159%2014.5226%2011.606%2014.6002%2011.9999%2014.6002C12.7956%2014.6002%2013.5586%2014.2841%2014.1213%2013.7215C14.6839%2013.1589%2014.9999%2012.3958%2014.9999%2011.6002C14.9999%2010.8045%2014.6839%2010.0414%2014.1213%209.47883C13.5586%208.91622%2012.7956%208.60015%2011.9999%208.60015Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_330'%3e%3crect%20width='24'%20height='24'%20fill='white'%20transform='translate(0%200.600098)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
-                    alt=""
-                  />
+                    alt="" />
                 </div>
                 <div class="le">
                   <div class="le-heading">
@@ -95,14 +74,12 @@
                 <div class="re">
                   <img
                     src="data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_330)'%3e%3cpath%20d='M18.3639%205.23615C20.0163%206.88829%2020.9613%209.11827%2020.9992%2011.4546C21.037%2013.7909%2020.1648%2016.0503%2018.5669%2017.7552L18.3639%2017.9652L14.1209%2022.2072C13.5826%2022.7452%2012.8598%2023.0585%2012.0991%2023.0835C11.3384%2023.1086%2010.5966%2022.8436%2010.0239%2022.3422L9.87993%2022.2072L5.63593%2017.9642C3.9481%2016.2763%202.99988%2013.9871%202.99988%2011.6002C2.99988%209.21319%203.9481%206.92399%205.63593%205.23615C7.32377%203.54832%209.61297%202.6001%2011.9999%202.6001C14.3869%202.6001%2016.6761%203.54832%2018.3639%205.23615ZM11.9999%208.60015C11.606%208.60015%2011.2159%208.67775%2010.8519%208.82851C10.4879%208.97928%2010.1572%209.20026%209.87861%209.47883C9.60004%209.75741%209.37906%2010.0881%209.2283%2010.4521C9.07753%2010.8161%208.99993%2011.2062%208.99993%2011.6002C8.99993%2011.9941%209.07753%2012.3842%209.2283%2012.7482C9.37906%2013.1122%209.60004%2013.4429%209.87861%2013.7215C10.1572%2014%2010.4879%2014.221%2010.8519%2014.3718C11.2159%2014.5226%2011.606%2014.6002%2011.9999%2014.6002C12.7956%2014.6002%2013.5586%2014.2841%2014.1213%2013.7215C14.6839%2013.1589%2014.9999%2012.3958%2014.9999%2011.6002C14.9999%2010.8045%2014.6839%2010.0414%2014.1213%209.47883C13.5586%208.91622%2012.7956%208.60015%2011.9999%208.60015Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_330'%3e%3crect%20width='24'%20height='24'%20fill='white'%20transform='translate(0%200.600098)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
-                    alt=""
-                  />
+                    alt="" />
                 </div>
                 <div class="le1">
                   <div class="le-heading">
                     <span style="font-weight: 700">
-                      {my}dentist Kings Norton</span
-                    >, 183 Redditch Rd, Kings Norton, Birmingham B38 8RH
+                      {my}dentist Kings Norton</span>, 183 Redditch Rd, Kings Norton, Birmingham B38 8RH
                   </div>
                 </div>
               </div>
@@ -117,27 +94,17 @@
           <div class="treat-img1">
             <img src="assets/a-images/bgg-banner.svg" alt="" />
           </div>
-          <div
-            class="left-img1 aos-init aos-animate"
-            data-aos="zoom-in"
-            data-aos-duration="800"
-          >
+          <div class="left-img1 aos-init aos-animate" data-aos="zoom-in" data-aos-duration="800">
             <img src="assets/a-images/banner-front.png" alt="" />
           </div>
         </div>
         <div class="responsive-content-container">
           <div class="responive-left">
             <div class="left-responsive-content-contained">
-              <div
-                class="left-heading1 aos-init aos-animate"
-                data-aos="fade-right"
-                data-aos-offset="200"
-                data-aos-duration="600"
-              >
+              <div class="left-heading1 aos-init aos-animate" data-aos="fade-right" data-aos-offset="200"
+                data-aos-duration="600">
                 <h2 class="heading-control1">
-                  Treat yourself to a beautiful,<span
-                    style="color: rgb(213, 33, 160)"
-                  >
+                  Treat yourself to a beautiful,<span style="color: rgb(213, 33, 160)">
                     new
                   </span>
                   smile
@@ -156,12 +123,8 @@
           </div>
           <div class="responive-right">
             <div class="treat-right-responisve">
-              <div
-                class="right-content-container1 aos-init aos-animate"
-                data-aos="fade-left"
-                data-aos-offset="200"
-                data-aos-duration="600"
-              >
+              <div class="right-content-container1 aos-init aos-animate" data-aos="fade-left" data-aos-offset="200"
+                data-aos-duration="600">
                 <div class="right-heading1">
                   <h2>LOCATIONS</h2>
                 </div>
@@ -169,8 +132,7 @@
                   <div class="re1">
                     <img
                       src="data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_330)'%3e%3cpath%20d='M18.3639%205.23615C20.0163%206.88829%2020.9613%209.11827%2020.9992%2011.4546C21.037%2013.7909%2020.1648%2016.0503%2018.5669%2017.7552L18.3639%2017.9652L14.1209%2022.2072C13.5826%2022.7452%2012.8598%2023.0585%2012.0991%2023.0835C11.3384%2023.1086%2010.5966%2022.8436%2010.0239%2022.3422L9.87993%2022.2072L5.63593%2017.9642C3.9481%2016.2763%202.99988%2013.9871%202.99988%2011.6002C2.99988%209.21319%203.9481%206.92399%205.63593%205.23615C7.32377%203.54832%209.61297%202.6001%2011.9999%202.6001C14.3869%202.6001%2016.6761%203.54832%2018.3639%205.23615ZM11.9999%208.60015C11.606%208.60015%2011.2159%208.67775%2010.8519%208.82851C10.4879%208.97928%2010.1572%209.20026%209.87861%209.47883C9.60004%209.75741%209.37906%2010.0881%209.2283%2010.4521C9.07753%2010.8161%208.99993%2011.2062%208.99993%2011.6002C8.99993%2011.9941%209.07753%2012.3842%209.2283%2012.7482C9.37906%2013.1122%209.60004%2013.4429%209.87861%2013.7215C10.1572%2014%2010.4879%2014.221%2010.8519%2014.3718C11.2159%2014.5226%2011.606%2014.6002%2011.9999%2014.6002C12.7956%2014.6002%2013.5586%2014.2841%2014.1213%2013.7215C14.6839%2013.1589%2014.9999%2012.3958%2014.9999%2011.6002C14.9999%2010.8045%2014.6839%2010.0414%2014.1213%209.47883C13.5586%208.91622%2012.7956%208.60015%2011.9999%208.60015Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_330'%3e%3crect%20width='24'%20height='24'%20fill='white'%20transform='translate(0%200.600098)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
-                      alt=""
-                    />
+                      alt="" />
                   </div>
                   <div class="le2">
                     <div class="le-heading1">
@@ -183,14 +145,12 @@
                   <div class="re1">
                     <img
                       src="data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_330)'%3e%3cpath%20d='M18.3639%205.23615C20.0163%206.88829%2020.9613%209.11827%2020.9992%2011.4546C21.037%2013.7909%2020.1648%2016.0503%2018.5669%2017.7552L18.3639%2017.9652L14.1209%2022.2072C13.5826%2022.7452%2012.8598%2023.0585%2012.0991%2023.0835C11.3384%2023.1086%2010.5966%2022.8436%2010.0239%2022.3422L9.87993%2022.2072L5.63593%2017.9642C3.9481%2016.2763%202.99988%2013.9871%202.99988%2011.6002C2.99988%209.21319%203.9481%206.92399%205.63593%205.23615C7.32377%203.54832%209.61297%202.6001%2011.9999%202.6001C14.3869%202.6001%2016.6761%203.54832%2018.3639%205.23615ZM11.9999%208.60015C11.606%208.60015%2011.2159%208.67775%2010.8519%208.82851C10.4879%208.97928%2010.1572%209.20026%209.87861%209.47883C9.60004%209.75741%209.37906%2010.0881%209.2283%2010.4521C9.07753%2010.8161%208.99993%2011.2062%208.99993%2011.6002C8.99993%2011.9941%209.07753%2012.3842%209.2283%2012.7482C9.37906%2013.1122%209.60004%2013.4429%209.87861%2013.7215C10.1572%2014%2010.4879%2014.221%2010.8519%2014.3718C11.2159%2014.5226%2011.606%2014.6002%2011.9999%2014.6002C12.7956%2014.6002%2013.5586%2014.2841%2014.1213%2013.7215C14.6839%2013.1589%2014.9999%2012.3958%2014.9999%2011.6002C14.9999%2010.8045%2014.6839%2010.0414%2014.1213%209.47883C13.5586%208.91622%2012.7956%208.60015%2011.9999%208.60015Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_330'%3e%3crect%20width='24'%20height='24'%20fill='white'%20transform='translate(0%200.600098)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
-                      alt=""
-                    />
+                      alt="" />
                   </div>
                   <div class="le3">
                     <div class="le-heading1">
                       <span style="font-weight: 700">
-                        {my}dentist Kings Norton</span
-                      >, 183 Redditch Rd, Kings Norton, Birmingham B38 8RH
+                        {my}dentist Kings Norton</span>, 183 Redditch Rd, Kings Norton, Birmingham B38 8RH
                     </div>
                   </div>
                 </div>
@@ -204,18 +164,13 @@
       <div class="lusia-conatiner">
         <div class="lusia-container-full-contained">
           <div class="lusia-left">
-            <div
-              class="lusia-contained aos-init aos-animate"
-              data-aos="fade-right"
-              data-aos-offset="200"
-              data-aos-duration="600"
-            >
+            <div class="lusia-contained aos-init aos-animate" data-aos="fade-right" data-aos-offset="200"
+              data-aos-duration="600">
               <div class="lusia-content">
                 <div class="lusia-img">
                   <img
                     src="data:image/svg+xml,%3csvg%20width='30'%20height='2'%20viewBox='0%200%2030%202'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cline%20y1='1'%20x2='30'%20y2='1'%20stroke='%23D521A0'%20stroke-width='2'/%3e%3c/svg%3e"
-                    alt=""
-                  />
+                    alt="" />
                 </div>
                 <div class="lusia-heading">
                   <h2 class="lusia-heading-control">Meet Dr.Luisa</h2>
@@ -227,31 +182,20 @@
               <div class="lusia-para">
                 <p>
                   GDC –
-                  <a
-                    href="https://olr.gdc-uk.org/SearchRegister/SearchResult?RegistrationNumber=276215
-                  "
-                    style="text-decoration: none; color: inherit"
-                    >276215</a
-                  >
+                  <a href="https://olr.gdc-uk.org/SearchRegister/SearchResult?RegistrationNumber=276215
+                  " style="text-decoration: none; color: inherit">276215</a>
                 </p>
               </div>
               <div class="left-button1">
-                <a href="/consult.php"
-                  ><button>
+                <a href="/consult.php"><button>
                     Get In Touch<img
                       src="data:image/svg+xml,%3csvg%20width='21'%20height='20'%20viewBox='0%200%2021%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_125)'%3e%3cpath%20d='M14.667%205.83337L6.33366%2014.1667'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M7.16699%205.83337H14.667V13.3334'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_125'%3e%3crect%20width='20'%20height='20'%20fill='white'%20transform='matrix(-1%200%200%201%2020.5%200)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
-                      alt=""
-                    /></button
-                ></a>
+                      alt="" /></button></a>
               </div>
             </div>
           </div>
-          <div
-            class="lusia-right aos-init aos-animate"
-            data-aos="fade-left"
-            data-aos-offset="200"
-            data-aos-duration="700"
-          >
+          <div class="lusia-right aos-init aos-animate" data-aos="fade-left" data-aos-offset="200"
+            data-aos-duration="700">
             <div class="lusia-right-contained">
               <div class="right-para">
                 <p>
@@ -276,10 +220,7 @@
       <!--------------------- MAIN-4------------------------->
       <div class="dental-container">
         <div class="dental-image">
-          <img
-            src="assets/a-images/dental-contain.png"
-            alt="Dr Luisa examining a patient's teeth with dental tools"
-          />
+          <img src="assets/a-images/dental-contain.png" alt="Dr Luisa examining a patient's teeth with dental tools" />
         </div>
       </div>
 
@@ -298,18 +239,11 @@
             <div class="Treatments-grid-container">
               <div class="middle-part">
                 <div class="column1">
-                  <a
-                    class="Treatments-grid-item"
-                    href="tretment1.php"
-                    style="text-decoration: none; color: black"
-                  >
+                  <a class="Treatments-grid-item" href="tretment1.php" style="text-decoration: none; color: black">
                     <div class="treatment-box-grid">
                       <div class="img-contained-treatment">
-                        <img
-                          src="assets/a-images/ring-DODHdGpO.png"
-                          alt="Invisalign Clear Braces"
-                          class="image-fluid"
-                        />
+                        <img src="assets/a-images/ring-DODHdGpO.png" alt="Invisalign Clear Braces"
+                          class="image-fluid" />
                       </div>
                       <div class="treeeet-flex">
                         <div class="treatment-flex-content-contained">
@@ -326,18 +260,11 @@
                       </div>
                     </div>
                   </a>
-                  <a
-                    class="Treatments-grid-item"
-                    href="treatment.php"
-                    style="text-decoration: none; color: black"
-                  >
+                  <a class="Treatments-grid-item" href="treatment.php" style="text-decoration: none; color: black">
                     <div class="treatment-box-grid1">
                       <div class="img-contained-treatment">
-                        <img
-                          src="assets/a-images/pngkey.svg"
-                          alt="Composite bonding illustration with dental arch"
-                          class="image-fluid"
-                        />
+                        <img src="assets/a-images/pngkey.svg" alt="Composite bonding illustration with dental arch"
+                          class="image-fluid" />
                       </div>
                       <div class="treeeet-flex">
                         <div class="treatment-flex-content-contained">
@@ -356,18 +283,10 @@
                   </a>
                 </div>
                 <div class="column2">
-                  <a
-                    class="Treatments-grid-item"
-                    href="treatment3.php"
-                    style="text-decoration: none; color: black"
-                  >
+                  <a class="Treatments-grid-item" href="treatment3.php" style="text-decoration: none; color: black">
                     <div class="treatment-box-grid2">
                       <div class="treat-grid-img-flex">
-                        <img
-                          src="assets/a-images/treatment1.png"
-                          alt="Enlighten Teeth Whitening"
-                          class="image-fluid"
-                        />
+                        <img src="assets/a-images/treatment1.png" alt="Enlighten Teeth Whitening" class="image-fluid" />
                       </div>
                       <div class="treeeet-flex1">
                         <div class="treatment-flex-content-contained1">
@@ -381,18 +300,11 @@
                       </div>
                     </div>
                   </a>
-                  <a
-                    class="Treatments-grid-item"
-                    href="treatment4.php"
-                    style="text-decoration: none; color: black"
-                  >
+                  <a class="Treatments-grid-item" href="treatment4.php" style="text-decoration: none; color: black">
                     <div class="treatment-box-grid3">
                       <div class="treat-grid-img-flex">
-                        <img
-                          src="assets/a-images/treatment2.png"
-                          alt="Close-up of a smile with veneers on teeth"
-                          class="image-fluid"
-                        />
+                        <img src="assets/a-images/treatment2.png" alt="Close-up of a smile with veneers on teeth"
+                          class="image-fluid" />
                       </div>
                       <div class="treeeet-flex1">
                         <div class="treatment-flex-content-contained1">
@@ -420,6 +332,7 @@
         </div>
       </div>
       <!-------------MAIN-6-(slider carousel of line moving)--------->
+        <div style="width: 100%; overflow: hidden">
       <div class="slider-contained-container-full">
         <div class="slider-full-contained">
           <div class="slider-contained">
@@ -437,10 +350,7 @@
               <div class="container15">
                 <div class="slider-wrapper">
                   <!-- Left Arrow Button -->
-                  <button
-                    id="prev-slide"
-                    class="slide-button material-symbols-rounded"
-                  ></button>
+                  <button id="prev-slide" class="slide-button material-symbols-rounded"></button>
 
                   <!-- Scrollbar Track and Thumb -->
                   <div class="slider-scrollbar">
@@ -452,95 +362,60 @@
                   <!-- Image List inside UL with LI elements -->
                   <ul class="image-list" id="imageList">
                     <li>
-                      <img
-                        class="image-item"
-                        src="assets/a-images/teeth1.jpg"
-                        alt="Before and After Teeth Whitening Treatment Teeth"
-                      />
+                      <img class="image-item" src="assets/a-images/teeth1.jpg"
+                        alt="Before and After Teeth Whitening Treatment Teeth" />
                     </li>
                     <li>
-                      <img
-                        class="image-item"
-                        src="assets/a-images/teeth2.jpg"
-                        alt="Before and After Dental Implant Treatment Teeth"
-                      />
+                      <img class="image-item" src="assets/a-images/teeth2.jpg"
+                        alt="Before and After Dental Implant Treatment Teeth" />
                     </li>
                     <li>
-                      <img
-                        class="image-item"
-                        src="assets/a-images/teeth3.jpg"
-                        alt="Before and After Composite Bonding Treatment Teeth"
-                      />
+                      <img class="image-item" src="assets/a-images/teeth3.jpg"
+                        alt="Before and After Composite Bonding Treatment Teeth" />
                     </li>
                     <li>
-                      <img
-                        class="image-item"
-                        src="assets/a-images/teeth4.jpg"
-                        alt="Before and After Teeth Whitening Treatment Teeth"
-                      />
+                      <img class="image-item" src="assets/a-images/teeth4.jpg"
+                        alt="Before and After Teeth Whitening Treatment Teeth" />
                     </li>
                     <li>
-                      <img
-                        class="image-item"
-                        src="assets/a-images/teeth5.jpg"
-                        alt="Before and After Porcelain Veneers Treatment Teeth"
-                      />
+                      <img class="image-item" src="assets/a-images/teeth5.jpg"
+                        alt="Before and After Porcelain Veneers Treatment Teeth" />
                     </li>
                     <li>
-                      <img
-                        class="image-item"
-                        src="assets/a-images/teeth6.jpg"
-                        alt="Before and After Teeth Whitening Treatment Teeth"
-                      />
+                      <img class="image-item" src="assets/a-images/teeth6.jpg"
+                        alt="Before and After Teeth Whitening Treatment Teeth" />
                     </li>
                     <li>
-                      <img
-                        class="image-item"
-                        src="assets/a-images/teeth7.jpg"
-                        alt="Before and After Dr Luisa Patients"
-                      />
+                      <img class="image-item" src="assets/a-images/teeth7.jpg"
+                        alt="Before and After Dr Luisa Patients" />
                     </li>
                     <li>
-                      <img
-                        class="image-item"
-                        src="assets/a-images/teeth8.jpeg"
-                        alt="Before and After Dr Luisa Patients"
-                      />
+                      <img class="image-item" src="assets/a-images/teeth8.jpeg"
+                        alt="Before and After Dr Luisa Patients" />
                     </li>
                     <li>
-                      <img
-                        class="image-item"
-                        src="assets/a-images/teeth9.jpeg"
-                        alt="Before and After Dr Luisa Patients"
-                      />
+                      <img class="image-item" src="assets/a-images/teeth9.jpeg"
+                        alt="Before and After Dr Luisa Patients" />
                     </li>
                     <li>
-                      <img
-                        class="image-item"
-                        src="assets/a-images/teeth10.jpeg"
-                        alt="Before and After Dr Luisa Patients"
-                      />
+                      <img class="image-item" src="assets/a-images/teeth10.jpeg"
+                        alt="Before and After Dr Luisa Patients" />
                     </li>
                     <li>
-                      <img
-                        class="image-item"
-                        src="assets/a-images/teeth11.jpeg"
-                        alt="Before and After Dr Luisa Patients"
-                      />
+                      <img class="image-item" src="assets/a-images/teeth11.jpeg"
+                        alt="Before and After Dr Luisa Patients" />
                     </li>
                   </ul>
 
                   <!-- Right Arrow Button -->
-                  <button
-                    id="next-slide"
-                    class="slide-button material-symbols-rounded"
-                  ></button>
+                  <button id="next-slide" class="slide-button material-symbols-rounded"></button>
                 </div>
               </div>
             </div>
             <!--  -->
           </div>
         </div>
+      </div>
       </div>
       <!----------MAIN-7----(FOR SCROLLER FOR LOGOS OF COMPANIES)----->
 
@@ -557,186 +432,69 @@
 
           <div class="owl-carousel owl-theme work-logo-carousel">
             <div class="item-part">
-              <a
-                href="https://www.3shape.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  class="img-slider"
-                  src="assets/a-images/work1.webp"
-                  height="50"
-                  alt="3 shape logo"
-                />
+              <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
+                <img class="img-slider" src="assets/a-images/work1.webp" height="50" alt="3 shape logo" />
               </a>
             </div>
             <div class="item-part">
-              <a
-                href="https://www.3shape.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  class="img-slider"
-                  src="assets/a-images/work2.webp"
-                  height="50"
-                  alt="3 shape logo"
-                />
+              <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
+                <img class="img-slider" src="assets/a-images/work2.webp" height="50" alt="3 shape logo" />
               </a>
             </div>
             <div class="item-part">
-              <a
-                href="https://www.3shape.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  class="img-slider"
-                  src="assets/a-images/work3.webp"
-                  height="50"
-                  alt="3 shape logo"
-                />
+              <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
+                <img class="img-slider" src="assets/a-images/work3.webp" height="50" alt="3 shape logo" />
               </a>
             </div>
             <div class="item-part">
-              <a
-                href="https://www.3shape.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  class="img-slider"
-                  src="assets/a-images/work7.webp"
-                  height="50"
-                  alt="3 shape logo"
-                />
+              <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
+                <img class="img-slider" src="assets/a-images/work7.webp" height="50" alt="3 shape logo" />
               </a>
             </div>
             <div class="item-part">
-              <a
-                href="https://www.3shape.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  class="img-slider"
-                  src="assets/a-images/work8.webp"
-                  height="50"
-                  alt="3 shape logo"
-                />
+              <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
+                <img class="img-slider" src="assets/a-images/work8.webp" height="50" alt="3 shape logo" />
               </a>
             </div>
             <div class="item-part">
-              <a
-                href="https://www.3shape.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  class="img-slider"
-                  src="assets/a-images/work9.webp"
-                  height="50"
-                  alt="3 shape logo"
-                />
+              <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
+                <img class="img-slider" src="assets/a-images/work9.webp" height="50" alt="3 shape logo" />
               </a>
             </div>
             <div class="item-part">
-              <a
-                href="https://www.3shape.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  class="img-slider"
-                  src="assets/a-images/work12.webp"
-                  height="50"
-                  alt="3 shape logo"
-                />
+              <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
+                <img class="img-slider" src="assets/a-images/work12.webp" height="50" alt="3 shape logo" />
               </a>
             </div>
             <div class="item-part">
-              <a
-                href="https://www.3shape.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  class="img-slider"
-                  src="assets/a-images/work4.webp"
-                  height="50"
-                  alt="3 shape logo"
-                />
+              <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
+                <img class="img-slider" src="assets/a-images/work4.webp" height="50" alt="3 shape logo" />
               </a>
             </div>
             <div class="item-part">
-              <a
-                href="https://www.3shape.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  class="img-slider"
-                  src="assets/a-images/work5.webp"
-                  height="50"
-                  alt="3 shape logo"
-                />
+              <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
+                <img class="img-slider" src="assets/a-images/work5.webp" height="50" alt="3 shape logo" />
               </a>
             </div>
             <div class="item-part">
-              <a
-                href="https://www.3shape.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  class="img-slider"
-                  src="assets/a-images/work6.webp"
-                  height="50"
-                  alt="3 shape logo"
-                />
+              <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
+                <img class="img-slider" src="assets/a-images/work6.webp" height="50" alt="3 shape logo" />
               </a>
             </div>
 
             <div class="item-part">
-              <a
-                href="https://www.3shape.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  class="img-slider"
-                  src="assets/a-images/work11.webp"
-                  height="50"
-                  alt="3 shape logo"
-                />
+              <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
+                <img class="img-slider" src="assets/a-images/work11.webp" height="50" alt="3 shape logo" />
               </a>
             </div>
             <div class="item-part">
-              <a
-                href="https://www.3shape.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  class="img-slider"
-                  src="assets/a-images/work12.webp"
-                  height="50"
-                  alt="3 shape logo"
-                />
+              <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
+                <img class="img-slider" src="assets/a-images/work12.webp" height="50" alt="3 shape logo" />
               </a>
             </div>
             <div class="item-part">
-              <a
-                href="https://www.3shape.com/"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <img
-                  class="img-slider"
-                  src="assets/a-images/work13.webp"
-                  height="50"
-                  alt="3 shape logo"
-                />
+              <a href="https://www.3shape.com/" rel="noreferrer" target="_blank">
+                <img class="img-slider" src="assets/a-images/work13.webp" height="50" alt="3 shape logo" />
               </a>
             </div>
           </div>
@@ -744,106 +502,51 @@
       </section>
 
       <!-- ---------------------MAIN-8-(for-contact)-->
-       <!-- 1--MODAL -->
-      <div
-        class="modal fade"
-        id="staticBackdrop"
-        data-bs-backdrop="static"
-        data-bs-keyboard="false"
-        tabindex="-1"
-        aria-labelledby="staticBackdropLabel"
-        aria-hidden="true">
+      <!-- 1--MODAL -->
+      <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered">
           <div class="modal-content">
             <div class="modal-header">
               <h1 class="modal-title fs-5" id="staticBackdropLabel">
                 Validation Error
               </h1>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              <div
-                id="error-name-required"
-                class="validation-error"
-                style="display: none"
-              >
+              <div id="error-name-required" class="validation-error" style="display: none">
                 Name is required
               </div>
-              <div
-                id="error-email-required"
-                class="validation-error"
-                style="display: none"
-              >
+              <div id="error-email-required" class="validation-error" style="display: none">
                 Email address is required
               </div>
-              <div
-                id="error-email-invalid"
-                class="validation-error"
-                style="display: none"
-              >
+              <div id="error-email-invalid" class="validation-error" style="display: none">
                 Please enter a valid email address
               </div>
-              <div
-                id="error-phone-required"
-                class="validation-error"
-                style="display: none"
-              >
+              <div id="error-phone-required" class="validation-error" style="display: none">
                 Phone number is required
               </div>
-              <div
-                id="error-phone-invalid"
-                class="validation-error"
-                style="display: none"
-              >
+              <div id="error-phone-invalid" class="validation-error" style="display: none">
                 Please enter a valid phone number
               </div>
-              <div
-                id="error-practice-required"
-                class="validation-error"
-                style="display: none"
-              >
+              <div id="error-practice-required" class="validation-error" style="display: none">
                 Practice selection is required
               </div>
-              <div
-                id="error-message-required"
-                class="validation-error"
-                style="display: none"
-              >
+              <div id="error-message-required" class="validation-error" style="display: none">
                 Message is required
               </div>
-              <div
-                id="error-message-minlength"
-                class="validation-error"
-                style="display: none"
-              >
+              <div id="error-message-minlength" class="validation-error" style="display: none">
                 Message must be at least 10 characters long.
               </div>
-              <div
-                id="error-consent-required"
-                class="validation-error"
-                style="display: none"
-              >
+              <div id="error-consent-required" class="validation-error" style="display: none">
                 You must consent to the privacy policy
               </div>
-              <div
-                id="success-message"
-                class="validation-success"
-                style="display: none"
-              >
+              <div id="success-message" class="validation-success" style="display: none">
                 Form submitted successfully!
               </div>
             </div>
             <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
                 Close
               </button>
             </div>
@@ -859,8 +562,7 @@
                 <div class="lusia-img">
                   <img
                     src="data:image/svg+xml,%3csvg%20width='30'%20height='2'%20viewBox='0%200%2030%202'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cline%20y1='1'%20x2='30'%20y2='1'%20stroke='%23D521A0'%20stroke-width='2'/%3e%3c/svg%3e"
-                    alt=""
-                  />
+                    alt="" />
                 </div>
                 <div class="lusia-heading">
                   <h2 class="lusia-heading-control control-set-flex">
@@ -869,10 +571,7 @@
                 </div>
               </div>
               <div class="set-image-set">
-                <img
-                  src="assets/a-images/form-image.jpeg"
-                  alt="Dr Luisa holding a dental model"
-                />
+                <img src="assets/a-images/form-image.jpeg" alt="Dr Luisa holding a dental model" />
               </div>
               <div class="question-lusia">
                 <p>
@@ -894,30 +593,16 @@
                       <label for="name">Name</label>
                     </div>
                     <div class="contact-right-input input-image-flezzz">
-                      <input
-                        type="text"
-                        id="name"
-                        name="name"
-                        class="input-image-set bg-image"
-                        value=""
-                      />
+                      <input type="text" id="name" name="name" class="input-image-set bg-image" value="" />
                     </div>
                   </div>
-                  <div
-                    class="flex-email-phone-container best-container-contained"
-                  >
+                  <div class="flex-email-phone-container best-container-contained">
                     <div class="flex-item">
                       <div class="contact-right-label">
                         <label for="email">Email Address</label>
                       </div>
                       <div class="contact-right-input">
-                        <input
-                          type="text"
-                          id="email"
-                          name="email"
-                          class="input-image-set1 bg-image"
-                          value=""
-                        />
+                        <input type="text" id="email" name="email" class="input-image-set1 bg-image" value="" />
                       </div>
                     </div>
                     <div class="flex-item">
@@ -925,28 +610,16 @@
                         <label for="phone">Phone No.</label>
                       </div>
                       <div class="contact-right-input">
-                        <input
-                          type="text"
-                          id="phone"
-                          name="phone"
-                          class="input-image-set2 bg-image"
-                          value=""
-                        />
+                        <input type="text" id="phone" name="phone" class="input-image-set2 bg-image" value="" />
                       </div>
                     </div>
                   </div>
                   <div class="flex-item">
                     <div class="contact-right-label ok-label peal-label">
-                      <label for="practice"
-                        >Which Practice would you like to be treated at</label
-                      >
+                      <label for="practice">Which Practice would you like to be treated at</label>
                     </div>
                     <div class="custom-select1">
-                      <select
-                        id="practice"
-                        name="practice"
-                        class="ddd select-date"
-                      >
+                      <select id="practice" name="practice" class="ddd select-date">
                         <option value="" disabled="" selected="" hidden="">
                           Which Practice would you like to be treated at
                         </option>
@@ -970,20 +643,14 @@
                   <div class="para-form2">
                     <div class="para-form-input">
                       <div class="input-checked">
-                        <input
-                          type="checkbox"
-                          id="consentCheckbox"
-                          class="custom-checkbox"
-                        />
+                        <input type="checkbox" id="consentCheckbox" class="custom-checkbox" />
                       </div>
                       <div class="para-form2-content">
                         <p>
                           I consent to my personal data being collected and
                           stored as per the
                           <a href="privacy.php" style="text-decoration: none">
-                            <span style="color: rgb(213, 33, 160)"
-                              >Privacy Policy.</span
-                            >
+                            <span style="color: rgb(213, 33, 160)">Privacy Policy.</span>
                           </a>
                         </p>
                       </div>
@@ -994,8 +661,7 @@
                       Submit Form
                       <img
                         src="data:image/svg+xml,%3csvg%20width='21'%20height='20'%20viewBox='0%200%2021%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_125)'%3e%3cpath%20d='M14.667%205.83337L6.33366%2014.1667'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M7.16699%205.83337H14.667V13.3334'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_125'%3e%3crect%20width='20'%20height='20'%20fill='white'%20transform='matrix(-1%200%200%201%2020.5%200)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
-                        alt=""
-                      />
+                        alt="" />
                     </button>
                   </div>
                 </div>
@@ -1030,27 +696,21 @@
                   <div class="owl-carousel owl-theme testimonials-carousel">
                     <div class="slider-item">
                       <div class="slider-img">
-                        <img
-                          src="assets/a-images/rating.png"
-                          alt="Review Rating Stars"
-                        />
+                        <img src="assets/a-images/rating.png" alt="Review Rating Stars" />
                       </div>
                       <div class="p-para-test">
                         <div class="p-para">
                           <p>
-                            <span
-                              >I took my very nervous 9 year old to this dentist
+                            <span>I took my very nervous 9 year old to this dentist
                               and she was absolutely brilliant. Showed her
                               everything she was doing and put her at ease. I
                               even managed to get her to go back and see the
                               same dentist for a temporary filling which she
                               would never normally agree to! Quite pricey but
                               don't mind paying the price for them to be so kind
-                              and put my child at ease.<span
-                                style="color: white"
-                                >Lorem, ipsum dolor sit amet consectetur Lorem,
-                                ipsum dolor sit amet consectetur</span
-                              >
+                              and put my child at ease.<span style="color: white">Lorem, ipsum dolor sit amet
+                                consectetur Lorem,
+                                ipsum dolor sit amet consectetur</span>
                             </span>
                           </p>
                         </div>
@@ -1059,10 +719,8 @@
                         <div class="left-section-content-container-test">
                           <div class="le-test">
                             <div class="le-image-test">
-                              <img
-                                src="assets/a-images/img-testi2.svg"
-                                alt="Tony Dr Luisa's Restorative Dentistry Patient"
-                              />
+                              <img src="assets/a-images/img-testi2.svg"
+                                alt="Tony Dr Luisa's Restorative Dentistry Patient" />
                             </div>
                           </div>
                           <div class="re-test">
@@ -1073,27 +731,21 @@
                     </div>
                     <div class="slider-item">
                       <div class="slider-img">
-                        <img
-                          src="assets/a-images/rating.png"
-                          alt="Review Rating Stars"
-                        />
+                        <img src="assets/a-images/rating.png" alt="Review Rating Stars" />
                       </div>
                       <div class="p-para-test">
                         <div class="p-para">
                           <p>
-                            <span
-                              >I took my very nervous 9 year old to this dentist
+                            <span>I took my very nervous 9 year old to this dentist
                               and she was absolutely brilliant. Showed her
                               everything she was doing and put her at ease. I
                               even managed to get her to go back and see the
                               same dentist for a temporary filling which she
                               would never normally agree to! Quite pricey but
                               don't mind paying the price for them to be so kind
-                              and put my child at ease.<span
-                                style="color: white"
-                                >Lorem, ipsum dolor sit amet consectetur Lorem,
-                                ipsum dolor sit amet consectetur</span
-                              >
+                              and put my child at ease.<span style="color: white">Lorem, ipsum dolor sit amet
+                                consectetur Lorem,
+                                ipsum dolor sit amet consectetur</span>
                             </span>
                           </p>
                         </div>
@@ -1102,10 +754,8 @@
                         <div class="left-section-content-container-test">
                           <div class="le-test">
                             <div class="le-image-test">
-                              <img
-                                src="assets/a-images/img-testi5.jpg"
-                                alt="Tony Dr Luisa's Restorative Dentistry Patient"
-                              />
+                              <img src="assets/a-images/img-testi5.jpg"
+                                alt="Tony Dr Luisa's Restorative Dentistry Patient" />
                             </div>
                           </div>
                           <div class="re-test">
@@ -1116,29 +766,22 @@
                     </div>
                     <div class="slider-item">
                       <div class="slider-img">
-                        <img
-                          src="assets/a-images/rating.png"
-                          alt="Review Rating Stars"
-                        />
+                        <img src="assets/a-images/rating.png" alt="Review Rating Stars" />
                       </div>
                       <div class="p-para-test">
                         <div class="p-para">
                           <p>
-                            <span
-                              >Two fillings today. No local at my request,
+                            <span>Two fillings today. No local at my request,
                               didn’t feel a thing. Luisa and nurse very mindful
                               of my disability and issues with swallowing and
                               fear of choking. Couldn’t have had better
                               treatment.
-                              <span style="color: white"
-                                >Lorem, ipsum dolor sit amet consectetur
+                              <span style="color: white">Lorem, ipsum dolor sit amet consectetur
                                 adipisicing elit. Hic perspiciatis fugiat
                                 aliquam quia reprehenderit perferendis iure
                                 dolor sit quis iusto! aliquam quia reprehenderit
                                 perferendis iure dolor sit quis iusto!
-                                perferendis iure dolor sit quis iusto!</span
-                              ></span
-                            >
+                                perferendis iure dolor sit quis iusto!</span></span>
                           </p>
                         </div>
                       </div>
@@ -1146,10 +789,8 @@
                         <div class="left-section-content-container-test">
                           <div class="le-test">
                             <div class="le-image-test">
-                              <img
-                                src="assets/a-images/img-testi2.svg"
-                                alt="Tony Dr Luisa's Restorative Dentistry Patient"
-                              />
+                              <img src="assets/a-images/img-testi2.svg"
+                                alt="Tony Dr Luisa's Restorative Dentistry Patient" />
                             </div>
                           </div>
                           <div class="re-test">
@@ -1160,27 +801,21 @@
                     </div>
                     <div class="slider-item">
                       <div class="slider-img">
-                        <img
-                          src="assets/a-images/rating.png"
-                          alt="Review Rating Stars"
-                        />
+                        <img src="assets/a-images/rating.png" alt="Review Rating Stars" />
                       </div>
                       <div class="p-para-test">
                         <div class="p-para">
                           <p>
-                            <span
-                              >I took my very nervous 9 year old to this dentist
+                            <span>I took my very nervous 9 year old to this dentist
                               and she was absolutely brilliant. Showed her
                               everything she was doing and put her at ease. I
                               even managed to get her to go back and see the
                               same dentist for a temporary filling which she
                               would never normally agree to! Quite pricey but
                               don't mind paying the price for them to be so kind
-                              and put my child at ease.<span
-                                style="color: white"
-                                >Lorem, ipsum dolor sit amet consectetur Lorem,
-                                ipsum dolor sit amet consectetur</span
-                              >
+                              and put my child at ease.<span style="color: white">Lorem, ipsum dolor sit amet
+                                consectetur Lorem,
+                                ipsum dolor sit amet consectetur</span>
                             </span>
                           </p>
                         </div>
@@ -1189,10 +824,8 @@
                         <div class="left-section-content-container-test">
                           <div class="le-test">
                             <div class="le-image-test">
-                              <img
-                                src="assets/a-images/img-testi2.svg"
-                                alt="Tony Dr Luisa's Restorative Dentistry Patient"
-                              />
+                              <img src="assets/a-images/img-testi2.svg"
+                                alt="Tony Dr Luisa's Restorative Dentistry Patient" />
                             </div>
                           </div>
                           <div class="re-test">
@@ -1203,28 +836,22 @@
                     </div>
                     <div class="slider-item">
                       <div class="slider-img">
-                        <img
-                          src="assets/a-images/rating.png"
-                          alt="Review Rating Stars"
-                        />
+                        <img src="assets/a-images/rating.png" alt="Review Rating Stars" />
                       </div>
                       <div class="p-para-test">
                         <div class="p-para">
                           <p>
                             <span>
                               Tooth extraction for my child was very smooth and
-                              made my child very comfortable.<span
-                                style="color: white"
-                                >Lorem, ipsum dolor sit amet consectetur
+                              made my child very comfortable.<span style="color: white">Lorem, ipsum dolor sit amet
+                                consectetur
                                 adipisicing elit. Hic perspiciatis fugiat
                                 aliquam quia reprehenderit perferendis iure
                                 dolor sit quis iusto! aliquam quia reprehenderit
                                 perferendis iure dolor sit quis iusto!
                                 perferendis iure dolor sit quis iusto! aliquam
                                 quia reprehenderit perferendis iure dolor sit
-                                quis iusto! aliquam quia reprehenderit</span
-                              ></span
-                            >
+                                quis iusto! aliquam quia reprehenderit</span></span>
                           </p>
                         </div>
                       </div>
@@ -1232,10 +859,8 @@
                         <div class="left-section-content-container-test">
                           <div class="le-test">
                             <div class="le-image-test">
-                              <img
-                                src="assets/a-images/img testi7.svg"
-                                alt="Tony Dr Luisa's Restorative Dentistry Patient"
-                              />
+                              <img src="assets/a-images/img testi7.svg"
+                                alt="Tony Dr Luisa's Restorative Dentistry Patient" />
                             </div>
                           </div>
                           <div class="re-test">
@@ -1253,16 +878,12 @@
                   <div class="custom-arrow custom-prev testimonials-prev-btn">
                     <img
                       src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_164)'%3e%3cpath%20d='M5%2012H19'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M15%2016L19%2012'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M15%208L19%2012'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_164'%3e%3crect%20width='24'%20height='24'%20fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
-                      alt="Pre"
-                    />
+                      alt="Pre" />
                   </div>
-                  <div
-                    class="custom-arrow custom-next active testimonials-next-btn"
-                  >
+                  <div class="custom-arrow custom-next active testimonials-next-btn">
                     <img
                       src="data:image/svg+xml,%3csvg%20width='24'%20height='24'%20viewBox='0%200%2024%2024'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_170)'%3e%3cpath%20d='M19%2012H5'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M9%2016L5%2012'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M9%208L5%2012'%20stroke='%23333333'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_170'%3e%3crect%20width='24'%20height='24'%20fill='white'%20transform='matrix(-1%200%200%201%2024%200)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
-                      alt="Next"
-                    />
+                      alt="Next" />
                   </div>
                 </div>
               </div>
@@ -1271,12 +892,13 @@
         </div>
       </div>
       <!-------------------- FOOTER----------------main-10-------->
-      </main>
+    </main>
 
-      <section>
-        <?php include_once "footer.php" ?>
-      </section>
+    <section>
+      <?php include_once "footer.php" ?>
+    </section>
 
     <!--  -->
-  </body>
+</body>
+
 </html>

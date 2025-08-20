@@ -901,7 +901,7 @@ body {
 
 /* --------------------------------------main3----------------------------------------------- */
 .lusia-conatiner {
-    width: 100vw;
+    width: 100%;
     height: auto;
     display: flex;
     background-color: #fff;
@@ -1011,6 +1011,8 @@ a {
 /* --------------------------------------main4-------------------------Dental container---------------------- */
 .dental-container {
     width: 100vw;
+        width: 100%; 
+        /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
 }
 .dental-image {
     width: 100%;
@@ -1254,6 +1256,8 @@ img, svg {
 /* --------------------------------------main6----------------------------------------------- */
 .main-container{
     width:100vw;
+    width:100%;
+    /* ,,,,,,,,,,,,,,,,,,,,,,,,,,,,, */
     height:100%;
     padding-top:7%;
     padding-bottom: 4%;
@@ -3660,9 +3664,9 @@ a {
     .trsygrup-send {
     margin-top: 140px;
 }
-.dental-container {
+/* .dental-container {
     width: 100vw;
-}
+} */
 .expert-content {
     display: flex;
     width: 100%;
