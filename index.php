@@ -416,7 +416,7 @@ include_once "head.php";
           </div>
         </div>
       </div>
-      </div>
+     
       <!----------MAIN-7----(FOR SCROLLER FOR LOGOS OF COMPANIES)----->
 
       <section class="bg-white">
@@ -891,6 +891,7 @@ include_once "head.php";
           </div>
         </div>
       </div>
+       </div>
       <!-------------------- FOOTER----------------main-10-------->
     </main>
 
