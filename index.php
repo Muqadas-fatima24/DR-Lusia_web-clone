@@ -15,7 +15,7 @@ include_once "head.php";
 
     <!---------------------MAIN-------------------------->
     <main>
-      <!-- <div style="width: 100%; overflow-x: hidden"> -->
+      <div style="width: 100%; overflow-x: hidden">
       <div class="treat-container treatcontainer-merging">
         <div class="treat-img">
           <img src="assets/a-images/bgg-banner.svg" alt="" />
@@ -896,7 +896,7 @@ include_once "head.php";
       </div>
       <!-------------------- FOOTER----------------main-10-------->
     </main>
- <!-- </div> -->
+ </div>
  
     <section>
       <?php include_once "footer.php" ?>
