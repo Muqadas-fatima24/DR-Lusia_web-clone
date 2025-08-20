@@ -392,6 +392,8 @@
 /* ----------------------------1-HEADER STYLING------------------------------------ */
 body {
     font-family: 'SF Pro Display', sans-serif;
+  overflow-x: hidden !important;
+
 }
 .navbar-contained {
     width: 100%;
@@ -4396,6 +4398,3 @@ p {
 
 
 /* ............................................................ */
-body, html {
-  overflow-x: hidden;
-}
