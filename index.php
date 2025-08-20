@@ -895,6 +895,7 @@ include_once "head.php";
       <!-------------------- FOOTER----------------main-10-------->
     </main>
  </div>
+ 
     <section>
       <?php include_once "footer.php" ?>
     </section>
