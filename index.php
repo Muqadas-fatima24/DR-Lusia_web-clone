@@ -6,7 +6,7 @@ include_once "head.php";
 <!-- head end -->
 
 <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" cz-shortcut-listen="true">
-  <!-- <div style="width: 100%; overflow: hidden"> -->
+  <div style="width: 100%; overflow: hidden">
     <!----------------------HEADER----------------------->
 
     <section>
@@ -332,7 +332,7 @@ include_once "head.php";
         </div>
       </div>
       <!-------------MAIN-6-(slider carousel of line moving)--------->
-        <div style="width: 100%; overflow: hidden">
+        <!-- <div style="width: 100%; overflow: hidden"> -->
       <div class="slider-contained-container-full">
         <div class="slider-full-contained">
           <div class="slider-contained">
@@ -891,10 +891,10 @@ include_once "head.php";
           </div>
         </div>
       </div>
-       </div>
+      
       <!-------------------- FOOTER----------------main-10-------->
     </main>
-
+ </div>
     <section>
       <?php include_once "footer.php" ?>
     </section>

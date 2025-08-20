@@ -2117,6 +2117,7 @@ h2.partners-heading {
 /* -------------------MAIN11------------------- */
 .contact{
     width:100vw;
+    width:100%;
     display:flex;
     justify-content: center;
     align-items: center;
