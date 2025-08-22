@@ -1,7 +1,7 @@
 <?php
-  $home = "active"; 
-  $pageTitle = "Home | PINK WEBSITE(DR.LUSIA)";
-  include_once "head.php";   
+$home = "active";
+$pageTitle = "Home | PINK WEBSITE(DR.LUSIA)";
+include_once "head.php";
 ?>
 <!-- head end -->
 
@@ -9,9 +9,9 @@
   <div style="width: 100%;">
     <!----------------------HEADER----------------------->
 
-   <section>
+    <section>
       <?php include_once "header.php" ?>
-   </section>
+    </section>
 
     <!---------------------MAIN-------------------------->
     <main>
@@ -29,7 +29,7 @@
               <div class="treat-para">
                 <p style="color: white;">Excepteur sint occaecat cupidatat non proident,</p>
               </div>
-              <div class="left-button d-flex"><a href="/contact"><button
+              <div class="left-button d-flex"><a href="consult.php"><button
                     style="width: auto; padding-left: 10px; padding-right: 10px; display: inline-block;">Book a Guest
                     Appointment</button></a></div>
             </div>
@@ -66,20 +66,19 @@
       </div>
       <!-- ------------------MAIN2------------------- -->
       <!-- responsiveness -->
-       <div class="treat-container-responsive treatcontainer-merging-ok">
+      <div class="treat-container-responsive treatcontainer-merging-ok">
         <div class="image-container-responsive">
           <div class="treat-img1">
             <img src="assets/a-images/bgg-banner.svg" alt="" />
           </div>
-          <div class="left-img1 aos-init aos-animate" data-aos="zoom-in" data-aos-duration="800">
+          <div class="left-img1 aos-init" data-aos="zoom-in" data-aos-duration="800">
             <img src="assets/a-images/banner-front.png" alt="" />
           </div>
         </div>
         <div class="responsive-content-container">
           <div class="responive-left">
             <div class="left-responsive-content-contained">
-              <div class="left-heading1 aos-init aos-animate" data-aos="fade-right" data-aos-offset="200"
-                data-aos-duration="600">
+              <div class="left-heading1 aos-init" data-aos="fade-right" data-aos-offset="200" data-aos-duration="600">
                 <h2 class="heading-control1">
                   Treat yourself to a beautiful,<span style="color: rgb(213, 33, 160)">
                     new
@@ -100,7 +99,7 @@
           </div>
           <div class="responive-right">
             <div class="treat-right-responisve">
-              <div class="right-content-container1 aos-init aos-animate" data-aos="fade-left" data-aos-offset="200"
+              <div class="right-content-container1 aos-init" data-aos="fade-left" data-aos-offset="200"
                 data-aos-duration="600">
                 <div class="right-heading1">
                   <h2>LOCATIONS</h2>
@@ -136,11 +135,11 @@
           </div>
         </div>
       </div>
-<!--------------------- MAIN-3------------------------->
+      <!--------------------- MAIN-3------------------------->
       <div class="lusia-conatiner">
         <div class="lusia-container-full-contained">
           <div class="lusia-left">
-            <div class="lusia-contained aos-init aos-animate" data-aos="fade-right" data-aos-offset="200"
+            <div class="lusia-contained aos-init" data-aos="fade-right" data-aos-offset="200"
               data-aos-duration="600">
               <div class="lusia-content">
                 <div class="lusia-img">
@@ -170,7 +169,7 @@
               </div>
             </div>
           </div>
-          <div class="lusia-right aos-init aos-animate" data-aos="fade-left" data-aos-offset="200"
+          <div class="lusia-right aos-init" data-aos="fade-left" data-aos-offset="200"
             data-aos-duration="700">
             <div class="lusia-right-contained">
               <div class="right-para">
@@ -193,13 +192,13 @@
           </div>
         </div>
       </div>
- <!--------------------- MAIN-4------------------------->
+      <!--------------------- MAIN-4------------------------->
       <div class="dental-container">
         <div class="dental-image">
           <img src="assets/a-images/dental-contain.png" alt="Dr Luisa examining a patient's teeth with dental tools" />
         </div>
       </div>
-  <!--------------------- MAIN-5------------------------->
+      <!--------------------- MAIN-5------------------------->
       <div class="main-container">
         <div class="sub-main">
           <div class="content-container">
@@ -307,8 +306,8 @@
         </div>
       </div>
 
-     <!-------------MAIN-6-(slider carousel of line moving)--------->
-        <!-- <div style="width: 100%; overflow: hidden"> -->
+      <!-------------MAIN-6-(slider carousel of line moving)--------->
+      <!-- <div style="width: 100%; overflow: hidden"> -->
       <div class="slider-contained-container-full">
         <div class="slider-full-contained">
           <div class="slider-contained">
@@ -393,7 +392,7 @@
         </div>
       </div>
 
-<!----------MAIN-7----(FOR SCROLLER FOR LOGOS OF COMPANIES)----->
+      <!----------MAIN-7----(FOR SCROLLER FOR LOGOS OF COMPANIES)----->
 
       <section class="bg-white">
         <div class="container mt-5 mb-5">
@@ -871,9 +870,9 @@
       <!-------------------- FOOTER----------------main-10-------->
 
 
-<!-- ,,,,,,,,,,,,,,,,,,,,<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
- 
- <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+      <!-- ,,,,,,,,,,,,,,,,,,,,<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+      <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
 
 
 
@@ -894,9 +893,9 @@
   </div>
 
 
-       <section>
-        <?php include_once "footer.php" ?>
-      </section>
+  <section>
+    <?php include_once "footer.php" ?>
+  </section>
   <!--  -->
 </body>
 

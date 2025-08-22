@@ -131,7 +131,7 @@
           <div class="lusia-container-full-contained-offer">
             <div class="lusia-left-offer1">
               <div
-                class="lusia-contained-offer aos-init aos-animate"
+                class="lusia-contained-offer aos-init"
                 data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-duration="600"
@@ -168,7 +168,7 @@
               </div>
             </div>
             <div
-              class="lusia-right-offer1 aos-init aos-animate"
+              class="lusia-right-offer1 aos-init"
               data-aos="fade-left"
               data-aos-offset="200"
               data-aos-duration="700"
@@ -219,7 +219,7 @@
           <div class="process-main-dental">
             <div class="process-main-inside">
               <div
-                class="process-first-section aos-init aos-animate"
+                class="process-first-section aos-init"
                 data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-duration="600"
@@ -340,7 +340,7 @@
             <div class="expert-container-story1">
               <div class="expert-container-contained1-story">
                 <div
-                  class="expert-right-story aos-init aos-animate"
+                  class="expert-right-story aos-init"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-duration="600"
@@ -379,7 +379,7 @@
                   </div>
                 </div>
                 <div
-                  class="expert-left-story aos-init aos-animate"
+                  class="expert-left-story aos-init"
                   data-aos="fade-left"
                   data-aos-offset="200"
                   data-aos-duration="600"

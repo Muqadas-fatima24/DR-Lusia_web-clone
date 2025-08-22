@@ -87,7 +87,7 @@
             </div>
             <div class="church-cpntainer-contained-material">
               <div
-                class="church-left aos-init aos-animate"
+                class="church-left aos-init"
                 data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-duration="600"
@@ -142,7 +142,7 @@
                 </div>
               </div>
               <div
-                class="church-right aos-init aos-animate"
+                class="church-right aos-init"
                 data-aos="fade-left"
                 data-aos-offset="200"
                 data-aos-duration="600"

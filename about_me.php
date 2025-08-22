@@ -52,7 +52,7 @@
           <div class="expert-container">
             <div class="expert-container-contained">
               <div
-                class="expert-left aos-init aos-animate"
+                class="expert-left aos-init"
                 data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-duration="600"
@@ -65,7 +65,7 @@
                 </div>
               </div>
               <div
-                class="expert-right aos-init aos-animate"
+                class="expert-right aos-init"
                 data-aos="fade-left"
                 data-aos-offset="200"
                 data-aos-duration="600"
@@ -122,7 +122,7 @@
           <div class="expert-container">
             <div class="expert-container-contained1">
               <div
-                class="expert-right1 aos-init aos-animate"
+                class="expert-right1 aos-init"
                 data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-duration="600"
@@ -168,7 +168,7 @@
                 </div>
               </div>
               <div
-                class="expert-left1 aos-init aos-animate"
+                class="expert-left1 aos-init"
                 data-aos="fade-left"
                 data-aos-offset="200"
                 data-aos-duration="600"
@@ -202,7 +202,7 @@
             <div class="leader-content-container">
               <div class="leading-heading-flex">
                 <div
-                  class="leader-heading aos-init aos-animate"
+                  class="leader-heading aos-init"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-duration="600"
@@ -212,7 +212,7 @@
               </div>
               <div class="leader-para-dn">
                 <div
-                  class="leader-paragraph aos-init"
+                  class="leader-paragraph"
                   data-aos="fade-right"
                   data-aos-offset="200"
                   data-aos-duration="600"
@@ -235,7 +235,7 @@
             </div>
             <div class="leader-content-container-right">
               <div
-                class="leader-heading-right aos-init aos-animate"
+                class="leader-heading-right aos-init"
                 data-aos="fade-left"
                 data-aos-offset="200"
                 data-aos-duration="600"
