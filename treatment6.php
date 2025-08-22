@@ -22,7 +22,7 @@
           <div class="about-full-conatiner-contained">
             <div class="about-container-contained">
               <div
-                class="about-container-left aos-init aos-animate"
+                class="about-container-left aos-init"
                 data-aos="fade-right"
                 data-aos-offset="200"
                 data-aos-duration="600"
@@ -53,7 +53,7 @@
                 </div>
               </div>
               <div
-                class="about-container-right aos-init aos-animate"
+                class="about-container-right aos-init"
                 data-aos="fade-left"
                 data-aos-offset="200"
                 data-aos-duration="600"

@@ -1,57 +1,41 @@
 <?php
-$home = "active";
-$pageTitle = "Home | PINK WEBSITE(DR.LUSIA)";
-include_once "head.php";
+  $home = "active"; 
+  $pageTitle = "Home | PINK WEBSITE(DR.LUSIA)";
+  include_once "head.php";   
 ?>
 <!-- head end -->
 
-<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" cz-shortcut-listen="true">
-  <div style="width: 100%; overflow:hidden">
+<body>
+  <div style="width: 100%;">
     <!----------------------HEADER----------------------->
 
-    <section>
+   <section>
       <?php include_once "header.php" ?>
-    </section>
+   </section>
 
     <!---------------------MAIN-------------------------->
     <main>
-    
+      <!---------------------MAIN1 -------------------------->
+
       <div class="treat-container treatcontainer-merging">
-        <div class="treat-img">
-          <img src="assets/a-images/bgg-banner.svg" alt="" />
-        </div>
+        <div class="treat-img"><img
+            src="data:image/svg+xml,%3csvg%20width='1408'%20height='653'%20viewBox='0%200%201408%20653'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20opacity='0.4'%20d='M1057.42%20976C1057.42%20976%201682.45%20792.436%201189.35%20162C696.242%20-468.436%20279.156%201295.62%20-451.36%20784.5C-1301.31%20189.819%201268.57%20-85.9595%20-81.9756%20-210.5'%20stroke='%23D521A0'%20stroke-width='50'/%3e%3c/svg%3e"
+            alt=""></div>
         <div class="trest-full-container">
-          <!-- left -->
           <div class="treat-left">
-            <div class="left-heading aos-init aos-animate" data-aos="fade-right" data-aos-offset="200"
-              data-aos-duration="600">
-              <h1 class="heading-control">
-                Treat yourself to a beautiful,<span style="color: rgb(213, 33, 160)">
-                  new </span>smile
-              </h1>
+            <div class="left-heading aos-init" data-aos="fade-right" data-aos-offset="200" data-aos-duration="600">
+              <h1 class="heading-control">Treat yourself to a beautiful,<span style="color: rgb(213, 33, 160);"> new
+                </span> smile</h1>
               <div class="treat-para">
-                <p style="color: white">
-                  Excepteur sint occaecat cupidatat non proident,
-                </p>
+                <p style="color: white;">Excepteur sint occaecat cupidatat non proident,</p>
               </div>
-              <div class="left-button d-flex">
-                <a href="consult.php">
-                  <button style="
-                      width: auto;
-                      padding-left: 10px;
-                      padding-right: 10px;
-                      display: inline-block;
-                    ">
-                    Book a Guest Appointment
-                  </button>
-                </a>
-              </div>
+              <div class="left-button d-flex"><a href="/contact"><button
+                    style="width: auto; padding-left: 10px; padding-right: 10px; display: inline-block;">Book a Guest
+                    Appointment</button></a></div>
             </div>
-            <div class="left-img aos-init aos-animate" data-aos="zoom-in" data-aos-duration="800">
-              <img src="assets/a-images/banner-front.png" alt="Dr Luisa Mateescu" />
-            </div>
+            <div class="left-img aos-init" data-aos="zoom-in" data-aos-duration="800"><img
+                src="assets/a-images/banner-front.png" alt="Dr Luisa Mateescu"></div>
           </div>
-          <!-- right -->
           <div class="treat-right">
             <div class="right-content-container aos-init" data-aos="fade-left" data-aos-offset="200"
               data-aos-duration="600">
@@ -59,38 +43,30 @@ include_once "head.php";
                 <h2>LOCATIONS</h2>
               </div>
               <div class="right-icon-container">
-                <div class="re">
-                  <img
+                <div class="re"><img
                     src="data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_330)'%3e%3cpath%20d='M18.3639%205.23615C20.0163%206.88829%2020.9613%209.11827%2020.9992%2011.4546C21.037%2013.7909%2020.1648%2016.0503%2018.5669%2017.7552L18.3639%2017.9652L14.1209%2022.2072C13.5826%2022.7452%2012.8598%2023.0585%2012.0991%2023.0835C11.3384%2023.1086%2010.5966%2022.8436%2010.0239%2022.3422L9.87993%2022.2072L5.63593%2017.9642C3.9481%2016.2763%202.99988%2013.9871%202.99988%2011.6002C2.99988%209.21319%203.9481%206.92399%205.63593%205.23615C7.32377%203.54832%209.61297%202.6001%2011.9999%202.6001C14.3869%202.6001%2016.6761%203.54832%2018.3639%205.23615ZM11.9999%208.60015C11.606%208.60015%2011.2159%208.67775%2010.8519%208.82851C10.4879%208.97928%2010.1572%209.20026%209.87861%209.47883C9.60004%209.75741%209.37906%2010.0881%209.2283%2010.4521C9.07753%2010.8161%208.99993%2011.2062%208.99993%2011.6002C8.99993%2011.9941%209.07753%2012.3842%209.2283%2012.7482C9.37906%2013.1122%209.60004%2013.4429%209.87861%2013.7215C10.1572%2014%2010.4879%2014.221%2010.8519%2014.3718C11.2159%2014.5226%2011.606%2014.6002%2011.9999%2014.6002C12.7956%2014.6002%2013.5586%2014.2841%2014.1213%2013.7215C14.6839%2013.1589%2014.9999%2012.3958%2014.9999%2011.6002C14.9999%2010.8045%2014.6839%2010.0414%2014.1213%209.47883C13.5586%208.91622%2012.7956%208.60015%2011.9999%208.60015Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_330'%3e%3crect%20width='24'%20height='24'%20fill='white'%20transform='translate(0%200.600098)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
-                    alt="" />
-                </div>
+                    alt=""></div>
                 <div class="le">
-                  <div class="le-heading">
-                    <span style="font-weight: 700">All Saints Dental</span>, 2D
-                    Vicarage Rd, King's Heath, Birmingham B14 7RA
-                  </div>
+                  <div class="le-heading"><span style="font-weight: 700;">All Saints Dental</span>, 2D Vicarage Rd,
+                    King's Heath, Birmingham B14 7RA</div>
                 </div>
               </div>
               <div class="right-icon-container">
-                <div class="re">
-                  <img
+                <div class="re"><img
                     src="data:image/svg+xml,%3csvg%20width='24'%20height='25'%20viewBox='0%200%2024%2025'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_330)'%3e%3cpath%20d='M18.3639%205.23615C20.0163%206.88829%2020.9613%209.11827%2020.9992%2011.4546C21.037%2013.7909%2020.1648%2016.0503%2018.5669%2017.7552L18.3639%2017.9652L14.1209%2022.2072C13.5826%2022.7452%2012.8598%2023.0585%2012.0991%2023.0835C11.3384%2023.1086%2010.5966%2022.8436%2010.0239%2022.3422L9.87993%2022.2072L5.63593%2017.9642C3.9481%2016.2763%202.99988%2013.9871%202.99988%2011.6002C2.99988%209.21319%203.9481%206.92399%205.63593%205.23615C7.32377%203.54832%209.61297%202.6001%2011.9999%202.6001C14.3869%202.6001%2016.6761%203.54832%2018.3639%205.23615ZM11.9999%208.60015C11.606%208.60015%2011.2159%208.67775%2010.8519%208.82851C10.4879%208.97928%2010.1572%209.20026%209.87861%209.47883C9.60004%209.75741%209.37906%2010.0881%209.2283%2010.4521C9.07753%2010.8161%208.99993%2011.2062%208.99993%2011.6002C8.99993%2011.9941%209.07753%2012.3842%209.2283%2012.7482C9.37906%2013.1122%209.60004%2013.4429%209.87861%2013.7215C10.1572%2014%2010.4879%2014.221%2010.8519%2014.3718C11.2159%2014.5226%2011.606%2014.6002%2011.9999%2014.6002C12.7956%2014.6002%2013.5586%2014.2841%2014.1213%2013.7215C14.6839%2013.1589%2014.9999%2012.3958%2014.9999%2011.6002C14.9999%2010.8045%2014.6839%2010.0414%2014.1213%209.47883C13.5586%208.91622%2012.7956%208.60015%2011.9999%208.60015Z'%20fill='white'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_330'%3e%3crect%20width='24'%20height='24'%20fill='white'%20transform='translate(0%200.600098)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
-                    alt="" />
-                </div>
+                    alt=""></div>
                 <div class="le1">
-                  <div class="le-heading">
-                    <span style="font-weight: 700">
-                      {my}dentist Kings Norton</span>, 183 Redditch Rd, Kings Norton, Birmingham B38 8RH
-                  </div>
+                  <div class="le-heading"><span style="font-weight: 700;"> {my}dentist Kings Norton</span>, 183 Redditch
+                    Rd, Kings Norton, Birmingham B38 8RH</div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-<!-- </div> -->
-      <!--------------------- MAIN-2------------------------->
-      <div class="treat-container-responsive treatcontainer-merging-ok">
+      <!-- ------------------MAIN2------------------- -->
+      <!-- responsiveness -->
+       <div class="treat-container-responsive treatcontainer-merging-ok">
         <div class="image-container-responsive">
           <div class="treat-img1">
             <img src="assets/a-images/bgg-banner.svg" alt="" />
@@ -160,8 +136,7 @@ include_once "head.php";
           </div>
         </div>
       </div>
-
-      <!--------------------- MAIN-3------------------------->
+<!--------------------- MAIN-3------------------------->
       <div class="lusia-conatiner">
         <div class="lusia-container-full-contained">
           <div class="lusia-left">
@@ -218,14 +193,13 @@ include_once "head.php";
           </div>
         </div>
       </div>
-      <!--------------------- MAIN-4------------------------->
+ <!--------------------- MAIN-4------------------------->
       <div class="dental-container">
         <div class="dental-image">
           <img src="assets/a-images/dental-contain.png" alt="Dr Luisa examining a patient's teeth with dental tools" />
         </div>
       </div>
-
-      <!--------------------- MAIN-5------------------------->
+  <!--------------------- MAIN-5------------------------->
       <div class="main-container">
         <div class="sub-main">
           <div class="content-container">
@@ -332,7 +306,8 @@ include_once "head.php";
           </div>
         </div>
       </div>
-      <!-------------MAIN-6-(slider carousel of line moving)--------->
+
+     <!-------------MAIN-6-(slider carousel of line moving)--------->
         <!-- <div style="width: 100%; overflow: hidden"> -->
       <div class="slider-contained-container-full">
         <div class="slider-full-contained">
@@ -417,8 +392,8 @@ include_once "head.php";
           </div>
         </div>
       </div>
-     
-      <!----------MAIN-7----(FOR SCROLLER FOR LOGOS OF COMPANIES)----->
+
+<!----------MAIN-7----(FOR SCROLLER FOR LOGOS OF COMPANIES)----->
 
       <section class="bg-white">
         <div class="container mt-5 mb-5">
@@ -501,6 +476,7 @@ include_once "head.php";
           </div>
         </div>
       </section>
+
 
       <!-- ---------------------MAIN-8-(for-contact)-->
       <!-- 1--MODAL -->
@@ -893,14 +869,35 @@ include_once "head.php";
         </div>
       </div>
       <!-------------------- FOOTER----------------main-10-------->
-    </main>
- </div>
- 
-    <section>
-      <?php include_once "footer.php" ?>
-    </section>
 
-    <!--  -->
+
+<!-- ,,,,,,,,,,,,,,,,,,,,<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+ 
+ <!-- <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </main>
+
+  </div>
+
+
+       <section>
+        <?php include_once "footer.php" ?>
+      </section>
+  <!--  -->
 </body>
 
 </html>

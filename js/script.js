@@ -228,57 +228,57 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // =======================for teeth scroller=======================================
-document.addEventListener('DOMContentLoaded', function() {
-  const imageList = document.getElementById('imageList');
-  const scrollbarThumb = document.querySelector('.scrollbar-thumb');
-  const scrollbarTrack = document.querySelector('.scrollbar-track');
+// document.addEventListener('DOMContentLoaded', function() {
+//   const imageList = document.getElementById('imageList');
+//   const scrollbarThumb = document.querySelector('.scrollbar-thumb');
+//   const scrollbarTrack = document.querySelector('.scrollbar-track');
 
-  const updateThumbPosition = () => {
-    const scrollRatio = imageList.scrollLeft / (imageList.scrollWidth - imageList.clientWidth);
-    const thumbMaxLeft = scrollbarTrack.clientWidth - scrollbarThumb.clientWidth;
-    scrollbarThumb.style.left = `${scrollRatio * thumbMaxLeft}px`;
-  };
+//   const updateThumbPosition = () => {
+//     const scrollRatio = imageList.scrollLeft / (imageList.scrollWidth - imageList.clientWidth);
+//     const thumbMaxLeft = scrollbarTrack.clientWidth - scrollbarThumb.clientWidth;
+//     scrollbarThumb.style.left = `${scrollRatio * thumbMaxLeft}px`;
+//   };
 
-  // Move scrollbar thumb when image list is scrolled
-  imageList.addEventListener('scroll', updateThumbPosition);
+//   // Move scrollbar thumb when image list is scrolled
+//   imageList.addEventListener('scroll', updateThumbPosition);
 
-  // Dragging the scrollbar thumb
-  let isDragging = false;
-  let startX;
+//   // Dragging the scrollbar thumb
+//   let isDragging = false;
+//   let startX;
 
-  scrollbarThumb.addEventListener('mousedown', (e) => {
-    isDragging = true;
-    startX = e.clientX - scrollbarThumb.offsetLeft;
-    scrollbarThumb.style.cursor = "grabbing";
-    document.body.style.userSelect = 'none';
-  });
+//   scrollbarThumb.addEventListener('mousedown', (e) => {
+//     isDragging = true;
+//     startX = e.clientX - scrollbarThumb.offsetLeft;
+//     scrollbarThumb.style.cursor = "grabbing";
+//     document.body.style.userSelect = 'none';
+//   });
 
-  document.addEventListener('mouseup', () => {
-    isDragging = false;
-    scrollbarThumb.style.cursor = "grab";
-    document.body.style.userSelect = '';
-  });
+//   document.addEventListener('mouseup', () => {
+//     isDragging = false;
+//     scrollbarThumb.style.cursor = "grab";
+//     document.body.style.userSelect = '';
+//   });
 
-  document.addEventListener('mousemove', (e) => {
-    if (!isDragging) return;
-    e.preventDefault();
-    const trackRect = scrollbarTrack.getBoundingClientRect();
-    let newLeft = e.clientX - trackRect.left - startX;
+//   document.addEventListener('mousemove', (e) => {
+//     if (!isDragging) return;
+//     e.preventDefault();
+//     const trackRect = scrollbarTrack.getBoundingClientRect();
+//     let newLeft = e.clientX - trackRect.left - startX;
 
-    const maxLeft = scrollbarTrack.clientWidth - scrollbarThumb.clientWidth;
-    newLeft = Math.max(0, Math.min(newLeft, maxLeft));
-    scrollbarThumb.style.left = `${newLeft}px`;
+//     const maxLeft = scrollbarTrack.clientWidth - scrollbarThumb.clientWidth;
+//     newLeft = Math.max(0, Math.min(newLeft, maxLeft));
+//     scrollbarThumb.style.left = `${newLeft}px`;
 
-    // Sync image list scroll
-    const scrollRatio = newLeft / maxLeft;
-    imageList.scrollLeft = scrollRatio * (imageList.scrollWidth - imageList.clientWidth);
-  });
+//     // Sync image list scroll
+//     const scrollRatio = newLeft / maxLeft;
+//     imageList.scrollLeft = scrollRatio * (imageList.scrollWidth - imageList.clientWidth);
+//   });
 
 
-  // Initialize thumb position
-  window.addEventListener('load', updateThumbPosition);
-  window.addEventListener('resize', updateThumbPosition);
-});
+//   // Initialize thumb position
+//   window.addEventListener('load', updateThumbPosition);
+//   window.addEventListener('resize', updateThumbPosition);
+// });
 // '''''''''''''''''''''''''''''''''''''''''''''''''''''''''..
 // when click on nav links colors
 document.addEventListener('DOMContentLoaded', function() {
@@ -304,7 +304,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 }); 
-// [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+// [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]
 // ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 document.addEventListener('DOMContentLoaded', function() {
     // Get form and input elements
@@ -422,3 +422,88 @@ document.addEventListener('DOMContentLoaded', function() {
     // Attach the submission handler to the form's submit event
     form.addEventListener('submit', handleFormSubmission);
 }); 
+
+// practice >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// =======================for teeth scroller=======================================
+document.addEventListener('DOMContentLoaded', function() {
+  const imageList = document.getElementById('imageList');
+  const scrollbarThumb = document.querySelector('.scrollbar-thumb');
+  const scrollbarTrack = document.querySelector('.scrollbar-track');
+
+  const updateThumbPosition = () => {
+    if (imageList.scrollWidth > imageList.clientWidth) {
+      const scrollRatio = imageList.scrollLeft / (imageList.scrollWidth - imageList.clientWidth);
+      const thumbMaxLeft = scrollbarTrack.clientWidth - scrollbarThumb.clientWidth;
+      scrollbarThumb.style.left = `${scrollRatio * thumbMaxLeft}px`;
+    }
+  };
+
+  // Move scrollbar thumb when image list is scrolled
+  imageList.addEventListener('scroll', updateThumbPosition);
+
+  // Dragging the scrollbar thumb
+  let isDraggingThumb = false;
+  let startXThumb;
+
+  scrollbarThumb.addEventListener('mousedown', (e) => {
+    isDraggingThumb = true;
+    startXThumb = e.clientX - scrollbarThumb.offsetLeft;
+    scrollbarThumb.style.cursor = "grabbing";
+    document.body.style.userSelect = 'none';
+  });
+
+  document.addEventListener('mouseup', () => {
+    isDraggingThumb = false;
+    scrollbarThumb.style.cursor = "grab";
+    document.body.style.userSelect = '';
+  });
+
+  document.addEventListener('mousemove', (e) => {
+    if (!isDraggingThumb) return;
+    e.preventDefault();
+    const trackRect = scrollbarTrack.getBoundingClientRect();
+    let newLeft = e.clientX - trackRect.left - startXThumb;
+
+    const maxLeft = scrollbarTrack.clientWidth - scrollbarThumb.clientWidth;
+    newLeft = Math.max(0, Math.min(newLeft, maxLeft));
+    scrollbarThumb.style.left = `${newLeft}px`;
+
+    // Sync image list scroll
+    const scrollRatio = newLeft / maxLeft;
+    imageList.scrollLeft = scrollRatio * (imageList.scrollWidth - imageList.clientWidth);
+  });
+  
+  // DRAG-TO-SCROLL THE IMAGE LIST
+  let isDraggingImages = false;
+  let startXImages;
+  let scrollLeftImages;
+
+  imageList.addEventListener('mousedown', (e) => {
+    isDraggingImages = true;
+    imageList.style.cursor = 'grabbing';
+    startXImages = e.pageX - imageList.offsetLeft;
+    scrollLeftImages = imageList.scrollLeft;
+  });
+
+  imageList.addEventListener('mouseleave', () => {
+    isDraggingImages = false;
+    imageList.style.cursor = 'grab';
+  });
+
+  imageList.addEventListener('mouseup', () => {
+    isDraggingImages = false;
+    imageList.style.cursor = 'grab';
+  });
+
+  imageList.addEventListener('mousemove', (e) => {
+    if (!isDraggingImages) return;
+    e.preventDefault();
+    const x = e.pageX - imageList.offsetLeft;
+    const walk = (x - startXImages) * 2; // The *2 provides a faster scroll speed
+    imageList.scrollLeft = scrollLeftImages - walk;
+  });
+
+  // Initialize thumb position
+  window.addEventListener('load', updateThumbPosition);
+  window.addEventListener('resize', updateThumbPosition);
+});

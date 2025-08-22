@@ -5,70 +5,71 @@
 ?>
 <!-- head end -->
 
-  <body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
-    <div style="width: 100%; overflow: hidden">
-      <!----------------------HEADER----------------------->
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" cz-shortcut-listen="true">
 
-   <section>
+    <!-- header -->
+      <section>
       <?php include_once "header.php" ?>
    </section>
-   <!-- main---------------------------------------------- -->
+
+    <!-- ........1............. -->
+<!-- 
+    <div>
+        <div class="about-PracticeHeaderlex-container treatcontainer-merging-hgzxdjh">
+            <div class="about-full-conatiner-contained">
+                <div class="about-container-contained">
+                    <div class="about-container-left aos-init" data-aos="fade-right" data-aos-offset="200"
+                        data-aos-duration="600">
+                        <div class="about-container-contained-leftt">
+                            <div class="about-heading">
+                                <h1>Where Does <span style="color: rgb(213, 33, 160);"> Dr Luisa</span> Work?</h1>
+                            </div>
+                            <div class="about-para">
+                                <p style="color: white;"></p>
+                                <div class="about-button"><a href="/contact"><button>Get In Touch <img
+                                                src="data:image/svg+xml,%3csvg%20width='21'%20height='20'%20viewBox='0%200%2021%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_125)'%3e%3cpath%20d='M14.667%205.83337L6.33366%2014.1667'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M7.16699%205.83337H14.667V13.3334'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_125'%3e%3crect%20width='20'%20height='20'%20fill='white'%20transform='matrix(-1%200%200%201%2020.5%200)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                                                alt=""></button></a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-container-right aos-init" data-aos="fade-left" data-aos-offset="200"
+                        data-aos-duration="600">
+                        <div class="about-right-img"><img src="assets/a-images/about-banner.png"
+                                alt="Dr Luisa holding a dental syringe"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
       <main>
         <!-- banner part (main-1) -->
         <div>
-          <div class="about-flex-container treatcontainer-merging-hgzxdjh">
+        <div class="about-PracticeHeaderlex-container treatcontainer-merging-hgzxdjh">
             <div class="about-full-conatiner-contained">
-              <div class="about-container-contained">
-                <!-- left -->
-                <div
-                  class="about-container-left aos-init aos-animate"
-                  data-aos="fade-right"
-                  data-aos-offset="200"
-                  data-aos-duration="600"
-                >
-                  <div class="about-container-contained-leftt">
-                    <div class="about-heading">
-                      <h1>
-                        Where Does <br /><span style="color: rgb(213, 33, 160)">
-                          Dr Luisa</span
-                        ><br />
-                        Work?
-                      </h1>
+                <div class="about-container-contained">
+                    <div class="about-container-left aos-init" data-aos="fade-right" data-aos-offset="200"
+                        data-aos-duration="600">
+                        <div class="about-container-contained-leftt">
+                            <div class="about-heading">
+                                <h1>Where Does <span style="color: rgb(213, 33, 160);"> Dr Luisa</span> Work?</h1>
+                            </div>
+                            <div class="about-para">
+                                <p style="color: white;"></p>
+                                <div class="about-button"><a href="consult.php"><button>Get In Touch <img
+                                                src="data:image/svg+xml,%3csvg%20width='21'%20height='20'%20viewBox='0%200%2021%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_125)'%3e%3cpath%20d='M14.667%205.83337L6.33366%2014.1667'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M7.16699%205.83337H14.667V13.3334'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_125'%3e%3crect%20width='20'%20height='20'%20fill='white'%20transform='matrix(-1%200%200%201%2020.5%200)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
+                                                alt=""></button></a></div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="about-para">
-                      <p style="color: white"></p>
-                      <div class="about-button">
-                        <a href="consult.php">
-                          <button>
-                            Get In Touch
-                            <img
-                              src="data:image/svg+xml,%3csvg%20width='21'%20height='20'%20viewBox='0%200%2021%2020'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cg%20clip-path='url(%23clip0_0_125)'%3e%3cpath%20d='M14.667%205.83337L6.33366%2014.1667'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3cpath%20d='M7.16699%205.83337H14.667V13.3334'%20stroke='white'%20stroke-width='1.5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3e%3c/g%3e%3cdefs%3e%3cclipPath%20id='clip0_0_125'%3e%3crect%20width='20'%20height='20'%20fill='white'%20transform='matrix(-1%200%200%201%2020.5%200)'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e"
-                              alt=""
-                            />
-                          </button>
-                        </a>
-                      </div>
+                    <div class="about-container-right aos-init" data-aos="fade-left" data-aos-offset="200"
+                        data-aos-duration="600">
+                        <div class="about-right-img"><img src="assets/a-images/about-banner.png"
+                                alt="Dr Luisa holding a dental syringe"></div>
                     </div>
-                  </div>
                 </div>
-                <!-- right -->
-                <div
-                  class="about-container-right aos-init aos-animate"
-                  data-aos="fade-left"
-                  data-aos-offset="200"
-                  data-aos-duration="600"
-                >
-                  <div class="about-right-img">
-                    <img
-                      src="assets/a-images/about-banner.png"
-                      alt="Dr Luisa holding a dental syringe"
-                    />
-                  </div>
-                </div>
-              </div>
             </div>
-          </div>
         </div>
+    </div>
         <!------------------------->
         <!-- main2 ------------ -->
         <div class="expert-content-container-full-responsive">
@@ -765,11 +766,13 @@
         </div>
       </main>
 
-      <!-------------------- FOOTER----------------------->
-      <section>
+
+       <section>
         <?php include_once "footer.php" ?>
       </section>
 
-    <!--  -->
-  </body>
+    <!-- ..................... -->
+
+</body>
+
 </html>

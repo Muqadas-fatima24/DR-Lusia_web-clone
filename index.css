@@ -1,0 +1,208 @@
+html, body {
+  overflow-x: hidden;
+}
+.treatcontainer-merging {
+    margin-top: 200px;
+}
+.treat-container {
+    width: 100%;
+    display: flex
+;
+    justify-content: center;
+    height: 100%;
+}
+.treat-img {
+    z-index: -1;
+    position: absolute;
+    width: 100%;
+}
+.treat-img img {
+    width: 100%;
+    object-fit: cover;
+    opacity: 10%;
+}
+
+img, svg {
+    vertical-align: middle;
+}
+.trest-full-container {
+    max-width: 1440px;
+    width: 100%;
+    display: flex
+;
+    justify-content: center;
+}
+.treat-left {
+    width: 70%;
+    display: flex
+;
+}
+.treat-right {
+    width: 32%;
+    display: flex
+;
+}
+.left-heading {
+    width: 100%;
+    display: flex
+;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 14%;
+    gap: 20px;
+}
+[data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+
+[data-aos=fade-right] {
+    transform: translate3d(-100px, 0, 0);
+}
+[data-aos][data-aos][data-aos-duration="600"], body[data-aos-duration="600"] [data-aos] {
+    transition-duration: .6s;
+}
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+    transition-timing-function: ease;
+}
+.left-heading h1 {
+    font-weight: 700;
+    font-family: Mona Sans, sans-serif;
+    font-size: 60px;
+    line-height: 55px;
+    color: #000;
+}
+.treat-para {
+    margin-left: 18%;
+    width: 85%;
+}
+.left-button {
+    width: 100%;
+    margin-left: 18%;
+}
+.left-button button {
+    width: 153px;
+    height: 51px;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    background-color: #d521a0;
+    cursor: pointer;
+    font-family: SF Pro Display, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+}
+.right-content-container {
+    width: 100%;
+    display: flex
+;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+    margin-top: 32%;
+}
+[data-aos^=fade][data-aos^=fade] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+[data-aos=fade-left] {
+    transform: translate3d(100px, 0, 0);
+}
+[data-aos][data-aos][data-aos-duration="600"], body[data-aos-duration="600"] [data-aos] {
+    transition-duration: .6s;
+}
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+    transition-timing-function: ease;
+}
+.right-heading {
+    width: 100%;
+}
+.right-heading h2 {
+    font-family: SF Pro Display, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 17px;
+    letter-spacing: .9px;
+    color: #52525b;
+}
+@media (min-width: 1200px) {
+    .h2, h2 {
+        font-size: 2rem;
+    }
+}
+.right-icon-container {
+    display: flex
+;
+    width: 100%;
+    gap: 4%;
+}
+.re {
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    background-color: #d521a0;
+    width: 42px;
+    height: 42px;
+    border-radius: 5px;
+}
+.re img {
+    object-fit: cover;
+    width: 24px;
+    height: 24px;
+}
+.le {
+    width: 75%;
+}
+.le-heading {
+    font-family: SF Pro Display, sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #18181b;
+}
+@media screen and (max-width: 1410px) {
+    .treat-para {
+        width: 80%;
+    }
+}
+.left-img img {
+    object-fit: cover;
+    width: 100%;
+    margin-top: -4%;
+    z-index: 1;
+}
+[data-aos=zoom-in] {
+    transform: scale(.6);
+}
+[data-aos^=zoom][data-aos^=zoom] {
+    opacity: 0;
+    transition-property: opacity, transform;
+}
+[data-aos][data-aos][data-aos-duration="400"], body[data-aos-duration="400"] [data-aos] {
+    transition-duration: .4s;
+}
+[data-aos][data-aos][data-aos-easing=ease], body[data-aos-easing=ease] [data-aos] {
+    transition-timing-function: ease;
+}
+[data-aos^=zoom][data-aos^=zoom].aos-animate {
+    opacity: 1;
+    transform: translateZ(0) scale(1);
+}
+[data-aos][data-aos][data-aos-duration="800"], body[data-aos-duration="800"] [data-aos] {
+    transition-duration: .8s;
+}
+.left-img img {
+    object-fit: cover;
+    width: 100%;
+    margin-top: -4%;
+    /* z-index: 1; */
+}
+[data-aos^=zoom][data-aos^=zoom].aos-animate {
+    opacity: 1;
+    transform: translateZ(0) scale(1);
+}
