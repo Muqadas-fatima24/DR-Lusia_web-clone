@@ -1,4 +1,4 @@
-// TO DROPDOWN
+// TO show DROPDOWN
 document.addEventListener('DOMContentLoaded', function () {
 let dropdownMenu = document.querySelector(".nav-item .dropdown-menu");
 let dropdownIcon = document.querySelector(".nav-item .nav-link svg");
@@ -9,11 +9,11 @@ if (dropdownMenu && dropdownIcon) {
             dropdownMenu.style.display = 'initial';
         } else {
             dropdownMenu.style.display = 'none';
-        }
+        } 
     });
 } 
-});
-// END TO DROPDOWN
+}); 
+
 
 //  form validation
 // ................................
@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Get specific error message divs
     const errorNameRequired = document.getElementById('error-name-required');
-    const errorEmailRequired = document.getElementById('error-email-required'); 
+    const errorEmailRequired = document.getElementById('error-email-required');  
     const errorEmailInvalid = document.getElementById('error-email-invalid');
     const errorPhoneRequired = document.getElementById('error-phone-required');
     const errorPhoneInvalid = document.getElementById('error-phone-invalid');
@@ -227,59 +227,6 @@ document.addEventListener('DOMContentLoaded', function() {
     // }
 });
 
-// =======================for teeth scroller=======================================
-// document.addEventListener('DOMContentLoaded', function() {
-//   const imageList = document.getElementById('imageList');
-//   const scrollbarThumb = document.querySelector('.scrollbar-thumb');
-//   const scrollbarTrack = document.querySelector('.scrollbar-track');
-
-//   const updateThumbPosition = () => {
-//     const scrollRatio = imageList.scrollLeft / (imageList.scrollWidth - imageList.clientWidth);
-//     const thumbMaxLeft = scrollbarTrack.clientWidth - scrollbarThumb.clientWidth;
-//     scrollbarThumb.style.left = `${scrollRatio * thumbMaxLeft}px`;
-//   };
-
-//   // Move scrollbar thumb when image list is scrolled
-//   imageList.addEventListener('scroll', updateThumbPosition);
-
-//   // Dragging the scrollbar thumb
-//   let isDragging = false;
-//   let startX;
-
-//   scrollbarThumb.addEventListener('mousedown', (e) => {
-//     isDragging = true;
-//     startX = e.clientX - scrollbarThumb.offsetLeft;
-//     scrollbarThumb.style.cursor = "grabbing";
-//     document.body.style.userSelect = 'none';
-//   });
-
-//   document.addEventListener('mouseup', () => {
-//     isDragging = false;
-//     scrollbarThumb.style.cursor = "grab";
-//     document.body.style.userSelect = '';
-//   });
-
-//   document.addEventListener('mousemove', (e) => {
-//     if (!isDragging) return;
-//     e.preventDefault();
-//     const trackRect = scrollbarTrack.getBoundingClientRect();
-//     let newLeft = e.clientX - trackRect.left - startX;
-
-//     const maxLeft = scrollbarTrack.clientWidth - scrollbarThumb.clientWidth;
-//     newLeft = Math.max(0, Math.min(newLeft, maxLeft));
-//     scrollbarThumb.style.left = `${newLeft}px`;
-
-//     // Sync image list scroll
-//     const scrollRatio = newLeft / maxLeft;
-//     imageList.scrollLeft = scrollRatio * (imageList.scrollWidth - imageList.clientWidth);
-//   });
-
-
-//   // Initialize thumb position
-//   window.addEventListener('load', updateThumbPosition);
-//   window.addEventListener('resize', updateThumbPosition);
-// });
-// '''''''''''''''''''''''''''''''''''''''''''''''''''''''''..
 // when click on nav links colors
 document.addEventListener('DOMContentLoaded', function() {
 
@@ -301,7 +248,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             }
         }
-    }
+     }
 
 }); 
 // [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[]]]]]]]]]]]]]]]]]]]]]]
